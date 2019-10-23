@@ -8,9 +8,10 @@
     <p>In order to fulfill the aim of our project, we look to gather multiple EMG signals derived from the human hand and differentiate the multiple readings at real-time speeds. The implementation of machine learning algorithms will be vital in obtaining the results we desire. The consistency and workability of our initial model will then be rounded out through a series of tests and observations to create an improved final product.</p>
 
     <h1>Deliverables</h1>
-    <p>
-    
-    </p>
+    <p><ul>
+      <li>Training set of data gathered from EMG sygnals</li>
+      <li>Recognition algorithm and its implementation</li>
+    </ul></p>
   
   <h1>Our Timeline</h1>
   <table>
@@ -54,7 +55,7 @@
   <p><ul>
     <li>"EMG Based Decoding of Object Motion in Dexterous, In-Hand Manipulation Tasks" by A. Dwivedi, Y. Kwon, et. al. 
       <br/>https://www.newdexterity.org/2018_BioRob_EMGDexterousManipulation.pdf</li>
-    <li>"Real-Time Surface EMG Pattern Recognition for Hand Gestures Based on an Artificial Neural Network" by Z.  Zhang, K. Yang et. al.
+    <li>"Real-Time Surface EMG Pattern Recognition for Hand Gestures Based on an Artificial Neural Network" by Z.  Zhang, K. Yang, et. al.
       <br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679304/</li>
   </ul></p>
   
