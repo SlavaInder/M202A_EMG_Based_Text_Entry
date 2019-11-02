@@ -83,7 +83,7 @@
     </tr>
   </table>    
   
-  <img src="ExampleTable.png" alt="Example Table"/>Example table for analyzing the results from testing
+  <img src="ExampleTable1.png" alt="Example Table"/><center>Example table for analyzing the results from testing</center>
         
   <h1>References</h1>
   <p><ul>
