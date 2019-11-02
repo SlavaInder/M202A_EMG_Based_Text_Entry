@@ -67,7 +67,8 @@
           <li>Configurating and testing hardware;</li>
         </ul>
       </td>
-        
+    </tr>
+  </table>    
         
   <h1>References</h1>
   <p><ul>
