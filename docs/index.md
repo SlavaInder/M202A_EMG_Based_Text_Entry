@@ -54,6 +54,20 @@
     </tr>
   </table>
   
+  <h1>Our Timeline</h1>
+  <table>
+    <tr>
+      <th>Viacheslav Inderiakin<\th>
+      <th>Michael Kim<\th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li></li>
+        </ul>
+      </td>
+        
+        
   <h1>References</h1>
   <p><ul>
     <li>"EMG Based Decoding of Object Motion in Dexterous, In-Hand Manipulation Tasks" by A. Dwivedi, Y. Kwon, et. al. 
