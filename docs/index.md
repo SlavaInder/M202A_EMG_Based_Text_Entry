@@ -8,7 +8,7 @@
     <p>In order to fulfill the aim of our project, we look to gather multiple EMG signals derived from the human hand and differentiate the multiple readings at real-time speeds. The implementation of machine learning algorithms will be vital in obtaining the results we desire. The consistency and workability of our initial model will then be rounded out through a series of tests and observations to create an improved final product.</p>
     
     <h1>Our Research<\h1>
-    <p>Surface electromyography signals (sEMG) can be monitored on many parts of the body, but for the purposes of our project, we will be focusing on the wrist area. In total, we aim to differentiate between the 8 sEMG signals that can be gathered from the wrist. The machine learning algorithm that will be mainly explored is the Linear Discriminant Analysis (LDA) in conjunction with wavelet packet transform (WPT) which have been observed to differentiate the most signals through EMG analysis.<p>
+    <p>Surface electromyography signals (sEMG) can be monitored on many parts of the body, but for the purposes of our project, we will be focusing on the wrist area. In total, we aim to differentiate between the 8 sEMG signals that can be gathered from the wrist. The machine learning algorithm that will be mainly explored is the Linear Discriminant Analysis (LDA) in conjunction with wavelet packet transform (WPT) which have been observed to differentiate the most signals through EMG analysis.</p>
 
     <h1>Deliverables</h1>
     <p><ul>
