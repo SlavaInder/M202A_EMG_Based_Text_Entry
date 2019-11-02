@@ -83,7 +83,8 @@
     </tr>
   </table>    
   
-  <img src="ExampleTable.png" alt="Italian Trulli">
+  <img src="ExampleTable.png" alt="Example Table">
+  <div style= font-size:80%; text-align:center;"><img src="ExampleTable.png" alt="Example Table">Example table for analyzing the results from testing</div>
         
   <h1>References</h1>
   <p><ul>
