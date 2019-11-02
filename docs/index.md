@@ -96,15 +96,14 @@
     <li>Test application with same subjects</li>
     </ul></p>
   <p>Step 7: Analysis of product
+  <ul>
   <li>Success metrics:</li>
   <ol>
     <li>Less than 0.1 second delay</li>
     <li>>90% accuracy</li>
     <li>Typing and functions properly executed</li>
     <li>Reasonable speed of input</li>
-    </ol>
-  </p>
-  
+    </ol></ul></p>
   
   <center><img src="ExampleTable1.png" alt="Example Table"/></center><p><center>Example table for analyzing the results from testing</center></p>
         
