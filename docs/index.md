@@ -77,15 +77,14 @@
           <li>Website updates and support;</li>
       </ul></td>
     </tr>
+  </table>  
     
-    <tr>
-      <th>Both Members</th>
-    </tr>
-    <tr><td><ul>
-      <li>Debug the fully assembled system (hardware + software</li>
-      <li>Contribute to final report and presentations</li>
-    </ul></td></tr>
-  </table>    
+<p>Both Members will</p>
+<ul>
+  <li>Debug the fully assembled system (hardware + software</li>
+  <li>Contribute to final report and presentations</li>
+</ul>
+      
   
   <h1>Methodology</h1>
   <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments
