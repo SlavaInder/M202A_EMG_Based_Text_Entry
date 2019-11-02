@@ -84,26 +84,31 @@
   </table>    
   
   <h1>Methodology</h1>
-  <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments<br>Step 2: Understanding algorithm and differentiation patterns<br>Step 3: Research/Observations with MyoBand<br>Step 4: Complete PCB and rough draft of code<br>Step 5: Create prototype of product</p>
-  <p><ul>
-    <li>Test with multiple subjects and determine accuracy of the gesture differentiation between each individual's input; multiple trials of each gesture</li>
-    <li>Determine delay with EMG differentiation</li>
-    <li>If needed, test accuracy of other algorithmic models with samples to determine best fit interpretation</li>
-  </ul></p>
-  <p>Step 6: Integrate with external monitor
-  <ul>
-    <li>Determine delay with integration</li>
-    <li>Test application with same subjects</li>
-    </ul></p>
-  <p>Step 7: Analysis of product
-  <ul>
-  <li>Success metrics:</li>
-  <ol>
-    <li>Less than 0.1 second delay</li>
-    <li>>90% accuracy</li>
-    <li>Typing and functions properly executed</li>
-    <li>Reasonable speed of input</li>
-    </ol></ul></p>
+  <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments
+    <br>Step 2: Understanding algorithm and differentiation patterns
+    <br>Step 3: Research/Observations with MyoBand<br>Step 4: Complete PCB and rough draft of code
+    <br>Step 5: Create prototype of product
+    <ul>
+      <li>Test with multiple subjects and determine accuracy of the gesture differentiation between each individual's input; multiple trials of each gesture</li>
+      <li>Determine delay with EMG differentiation</li>
+      <li>If needed, test accuracy of other algorithmic models with samples to determine best fit interpretation</li>
+    </ul>
+    Step 6: Integrate with external monitor
+    <ul>
+      <li>Determine delay with integration</li>
+      <li>Test application with same subjects</li>
+    </ul>
+    Step 7: Analysis of product
+    <ul>
+      <li>Success metrics:</li>
+      <ol>
+        <li>Less than 0.1 second delay</li>
+        <li>>90% accuracy</li>
+        <li>Typing and functions properly executed</li>
+        <li>Reasonable speed of input</li>
+      </ol>
+    </ul>
+  </p>
   
   <center><img src="ExampleTable1.png" alt="Example Table"/></center><p><center>Example table for analyzing the results from testing</center></p>
         
@@ -113,6 +118,8 @@
       <br/>https://www.newdexterity.org/2018_BioRob_EMGDexterousManipulation.pdf</li>
     <li>"Real-Time Surface EMG Pattern Recognition for Hand Gestures Based on an Artificial Neural Network" by Z.  Zhang, K. Yang, et. al.
       <br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679304/</li>
+    <li>"Machine Learning Algorithms for Characterization of EMG Signals" by Bekir Karlik , et. al.
+      <br>http://www.ijiee.org/papers/433-S3002.pdf</li>
   </ul></p>
   
   </body>
