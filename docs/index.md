@@ -79,7 +79,7 @@
     </tr>
     
     <tr>
-      
+      <th>Both Members</th>
     </tr>
   </table>    
   
