@@ -81,10 +81,10 @@
     <tr>
       <th>Both Members</th>
     </tr>
-    <tr><ul>
+    <tr><td><ul>
       <li>Debug the fully assembled system (hardware + software</li>
       <li>Contribute to final report and presentations</li>
-    </ul></tr>
+    </ul></td></tr>
   </table>    
   
   <h1>Methodology</h1>
