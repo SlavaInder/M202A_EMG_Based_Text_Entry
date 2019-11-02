@@ -53,28 +53,27 @@
       <td>Finalize the design; collect final set of data; fix arised issues. Measure percetage of right recognitions and latency.</td>
     </tr>
   </table>
-  
+ 
+ 
   <h1>Our Timeline</h1>
   <table>
+  
     <tr>
-      <th>Viacheslav Inderiakin<\th>
-      <th>Michael Kim<\th>
+      <th>Viacheslav Inderiakin</th>
+      <th>Michael Kim</th>
     </tr>
-    <tr>
-      <td>
-        <ul>
+  
+  <tr>
+      <td><ul>
           <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
           <li>Configurating and testing hardware;</li>
           <li>Integrating with external output;</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
+      </ul></td>
+      <td><ul>
           <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
           <li>Configurating and testing hardware;</li>
           <li>Integrating with external output;</li>
-        </ul>
-      </td>
+      </ul></td>
     </tr>
   </table>    
         
