@@ -55,7 +55,7 @@
   </table>
  
  
-  <h1>Our Timeline</h1>
+  <h1>Work Breakdown</h1>
   <table>
   
     <tr>
@@ -82,6 +82,8 @@
       
     </tr>
   </table>    
+  
+  <img src="ExampleTable.png" alt="Italian Trulli">
         
   <h1>References</h1>
   <p><ul>
