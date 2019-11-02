@@ -65,6 +65,14 @@
         <ul>
           <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
           <li>Configurating and testing hardware;</li>
+          <li>Integrating with external output;</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
+          <li>Configurating and testing hardware;</li>
+          <li>Integrating with external output;</li>
         </ul>
       </td>
     </tr>
