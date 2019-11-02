@@ -63,17 +63,23 @@
       <th>Michael Kim</th>
     </tr>
   
-  <tr>
+    <tr>
       <td><ul>
           <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
           <li>Configurating and testing hardware;</li>
+          <li>EMG-signal data gathering and preprocessing;</li>
           <li>Integrating with external output;</li>
       </ul></td>
       <td><ul>
-          <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
-          <li>Configurating and testing hardware;</li>
-          <li>Integrating with external output;</li>
+          <li>Literature review on Machine Learning algorithms for online pattern recognition;</li>
+          <li>Creating a skeleton of algorithm's implementation;</li>
+          <li>Testing algorithm performance on samples;</li>
+          <li>Website updates and support;</li>
       </ul></td>
+    </tr>
+    
+    <tr>
+      
     </tr>
   </table>    
         
