@@ -120,6 +120,8 @@
       <br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6679304/</li>
     <li>"Machine Learning Algorithms for Characterization of EMG Signals" by Bekir Karlik , et. al.
       <br>http://www.ijiee.org/papers/433-S3002.pdf</li>
+    <li>"Simultaneous sEMG Classification of Hand/Wrist Gestures and Forces" by Francesca Leone, et. al.
+      <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6593108/</li>
   </ul></p>
   
   </body>
