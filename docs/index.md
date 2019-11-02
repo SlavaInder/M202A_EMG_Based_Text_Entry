@@ -84,9 +84,11 @@
   </table>    
   
   <h1>Methodology</h1>
-  <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments<br>Step 2: Understanding algorithm and differentiation patterns<br>Step 3: Research/Observations with MyoBand<br>Step 4: Complete PCB and rough draft of code<br>Step 5: Create prototype of product<li>Test with multiple subjects and determine accuracy of the gesture differentiation between each individual's input; multiple trials of each gesture</li>
+  <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments<br>Step 2: Understanding algorithm and differentiation patterns<br>Step 3: Research/Observations with MyoBand<br>Step 4: Complete PCB and rough draft of code<br>Step 5: Create prototype of product 
+<ul>
+  <li>Test with multiple subjects and determine accuracy of the gesture differentiation between each individual's input; multiple trials of each gesture</li>
 <li>Determine delay with EMG differentiation</li>
-<li>If needed, test accuracy of other algorithmic models with samples to determine best fit interpretation</li>Step 6: Integrate with external monitor
+<li>If needed, test accuracy of other algorithmic models with samples to determine best fit interpretation</li></ul>Step 6: Integrate with external monitor
   <li>Determine delay with integration</li>
   <li>Test application with same subjects</li>
 Step 7: Analysis of product
