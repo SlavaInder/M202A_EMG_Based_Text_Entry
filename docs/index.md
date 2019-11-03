@@ -16,6 +16,34 @@
   </div>
 </div>
 
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+
     <h1>Our Approach</h1>
     <p>In order to fulfill the aim of our project, we look to gather multiple EMG signals derived from the human hand and differentiate the multiple readings at real-time speeds. The implementation of machine learning algorithms will be vital in obtaining the results we desire. The consistency and workability of our initial model will then be rounded out through a series of tests and observations to create an improved final product.</p>
     
