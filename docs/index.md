@@ -7,23 +7,12 @@
 <div id="slideshow">
   <div>
     <img src="emg1.jpg" alt="mustang.jpg"><br>
-    A newer Mustang.
   </div>
   <div>
     <img src="tvControl2.jpg" alt="camaro.jpg"><br>
-    A modern Camaro.
   </div>
   <div>
     <img src="machineLearning3.jpg" alt="classic.jpg"><br>
-    An oldie but a goodie!
-  </div>
-  <div>
-    <img src="classic2.jpg" alt="classic2.jpg"><br>
-    More old cars.
-  </div>
-  <div>
-    <img src="video_game_car.jpg" alt="video_game_car.jpg"><br>
-    A good renering of a classic race car.
   </div>
 </div>
 
