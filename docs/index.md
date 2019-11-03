@@ -4,16 +4,26 @@
     <h1>Our Mission</h1>
     <p>Our goal is to create a multi-use application via EMG-sensors to simplify the process of everyday tasks. Imagine controlling your TV, projector, computer, or even mobile device simply by moving your hands! This is the aim of our project and through the recognition of gestures and movement, we look to accomplish this goal and set a new standard of innovation!<br><br>Goals of the Product:<br>1) Differentiate between a total of 8 EMG signals<br>2) Properly integrate machine learning algorithm, differentiation, and external output</p>
 
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="emg1.jpg">
-  <img class="mySlides" src="tvControl2.jpg">
-  <img class="mySlides" src="machineLearning3.jpg">
-  <div class="w3-center w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+<div id="slideshow">
+  <div>
+    <img src="emg1.jpg" alt="mustang.jpg"><br>
+    A newer Mustang.
+  </div>
+  <div>
+    <img src="tvControl2.jpg" alt="camaro.jpg"><br>
+    A modern Camaro.
+  </div>
+  <div>
+    <img src="machineLearning3.jpg" alt="classic.jpg"><br>
+    An oldie but a goodie!
+  </div>
+  <div>
+    <img src="classic2.jpg" alt="classic2.jpg"><br>
+    More old cars.
+  </div>
+  <div>
+    <img src="video_game_car.jpg" alt="video_game_car.jpg"><br>
+    A good renering of a classic race car.
   </div>
 </div>
 
