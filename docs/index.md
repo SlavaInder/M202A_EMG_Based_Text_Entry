@@ -3,7 +3,7 @@
     
     <h1>Mock Dataset</h1>
     <p>
-    <a href="emgexample1.txt" download>Download MockSet</a>
+    <a href="emgexample1.data" download>Download MockSet</a>
     </p>
     
     <h1>Our Mission</h1>
