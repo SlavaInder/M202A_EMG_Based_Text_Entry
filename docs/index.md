@@ -3,7 +3,7 @@
     
     <h1>Mock Dataset</h1>
     <p>
-    <a href="emgexample1.data" download>Download MockSet</a>
+    <a href="myo_emg_export_1573942589053.csv" download>Download MockSet</a>
     </p>
     
     <h1>Our Mission</h1>
