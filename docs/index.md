@@ -1,9 +1,9 @@
 <html>
   <body>
     
-    <h1>Mock Dataset</h1>
+    <h1>EMG Datasets</h1>
     <p>
-    <a href="myo_emg_export_1573942589053.csv" download>Download MockSet</a>
+    <a href="emgset1.txt" download>Dataset for Index Finger Curl</a>
     </p>
     
     <h1>Our Mission</h1>
