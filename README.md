@@ -6,6 +6,7 @@ Our website: https://mhk150230.wixsite.com/slavam202a/deliverables
 Our GitHub pages: https://slavainder.github.io/M202A/
 
 Gesture Classification:
+
 Class 0) No Movement; Hand at Rest
 
 Class 1) Hand Parallel to Floor, Moving Down
