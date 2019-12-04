@@ -1,0 +1,15 @@
+main:
+  - title: "About"
+    url: /docs/about.md
+  - title: "Previous Works"
+    url: /docs/
+  - title: "Categories"
+    url: /docs/
+  - title: "Tags"
+    url: /docs/
+  - title: "Pages"
+    url: /docs/
+  - title: "Collections"
+    url: /docs/
+  - title: "External Link"
+    url: /docs/
