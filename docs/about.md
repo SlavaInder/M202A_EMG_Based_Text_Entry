@@ -1,7 +1,7 @@
   <body>
     <section class="page-header">
-      <h1 class="project-name">About</h1>
-      <h2 class="project-tagline">implementing real-time hand gesture recognition to control miscellaneous devices</h2>
+      <h1 class="project-name">Research</h1>
+      <h2 class="project-tagline">Previous Works</h2>
   </body>
 </html>
 
