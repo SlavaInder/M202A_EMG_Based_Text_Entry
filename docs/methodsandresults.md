@@ -19,15 +19,47 @@ permalink: /methodsandresults/
       }
       </style>
       <img src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png" class = "center">
-      <figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a>></figcaption>
+      <figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a></figcaption>
     </figure>
     <h3>Datasets</h3>
-    <p></p>
-    <h3>Algorithms</h3>
-    <p></p>
+    <p>The complete dataset for our project can be found on our GitHub repo or click here</p>
     <h3>PipeLine</h3>
-      <h4>Classification</h4>
+      <h4>Cleaning</h4>
   </body></html>
+  ```python
+  # Creates a new file with marked times based on frequency
+  # m_class_editor = class_editor(frequency, filenames)
+  m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
+  m_class_editor.process_all_files()
+  
+  # Extracts the features from the timestamped dataset from m_class_editor
+  # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
+  # l = number of samples per segment
+  # L = number of segments per window
+  m_converter = converter(2, 40, 200, 5, "emgset0")
+  m_converter.process_all_files()
+  ```
+  <html>
+  <h3>Classification</h3>
+  </html>
+  <html>
+  
+  ```python
+  # Creates a new file with marked times based on frequency
+  # m_class_editor = class_editor(frequency, filenames)
+  m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
+  m_class_editor.process_all_files()
+  
+  # Extracts the features from the timestamped dataset from m_class_editor
+  # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
+  # l = number of samples per segment
+  # L = number of segments per window
+  m_converter = converter(2, 40, 200, 5, "emgset0")
+  m_converter.process_all_files()
+  ```
+  <html>
+  <h3>Feature Extraction</h3>
+  </html>
   ```python
   # Creates a new file with marked times based on frequency
   # m_class_editor = class_editor(frequency, filenames)
