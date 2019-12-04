@@ -3,7 +3,7 @@
       <a class="active" href="https://slavainder.github.io/M202A/">Home</a>
       <a href="https://slavainder.github.io/M202A/about">About</a>
       <a href="https://slavainder.github.io/M202A/previousworks">Previous Works</a>
-      <a href="https://slavainder.github.io/M202A/methodsandresults">Methods and Results</a>
+      <a href="https://slavainder.github.io/M202A/methodsandresults">Results</a>
       <a href="https://slavainder.github.io/M202A/workbreakdown">Work Breakdown</a>
       <a href="https://slavainder.github.io/M202A/futuredirection">Future Direction</a>
       <a href="https://slavainder.github.io/M202A/references">References</a>
