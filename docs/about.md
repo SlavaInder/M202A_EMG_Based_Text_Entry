@@ -1,6 +1,3 @@
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/M202A/assets/css/style.css?v=2830014bd59184e2d1054abfb78cb06d3137f6ea">
   </head>
   <body>
     <section class="page-header">
