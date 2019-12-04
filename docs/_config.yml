@@ -1,21 +1,7 @@
 title: Embedded Systems
-authors:
-  michael:
-    name: Michael Kim 
-    display_name: Michael
-    gravatar: c66919cb194f96c696c1da0c47354a6a
-    email: hanzou@company.com
-    web: http://company.com
-    twitter: company
-    github: hhattori
-  jorgen:
-    name: Viacheslav Inderiakan 
-    display_name: Michael
-    gravatar: c66919cb194f96c696c1da0c47354a6a
-    email: hanzou@company.com
-    web: http://company.com
-    twitter: company
-    github: hhattori
+author: GitHub User
+email: your-email@domain.com
+author: Chinese
 email: your-email@domain.com
 description: implementing real-time hand gesture recognition to control miscellaneous devices
 show_excerpts: false # set to true to show excerpts on the homepage
