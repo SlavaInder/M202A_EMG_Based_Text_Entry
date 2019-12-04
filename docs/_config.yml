@@ -1,6 +1,4 @@
 theme: jekyll-theme-cayman
 title: [EMG - Based Virtual Input via Machine Learning]
 description: [implementing real-time hand gesture recognition to control miscellaneous devices]
-header_pages:
-  - rumerica/index.md
-  - about.md
+layout: default
