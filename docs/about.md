@@ -1,17 +1,3 @@
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>[“Hello”] | [“implementing real-time hand gesture recognition to control miscellaneous devices”]</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="[“EMG - Based Virtual Input via Machine Learning”]" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="[“implementing real-time hand gesture recognition to control miscellaneous devices”]" />
-<meta property="og:description" content="[“implementing real-time hand gesture recognition to control miscellaneous devices”]" />
-<link rel="canonical" href="https://slavainder.github.io/M202A/" />
-<meta property="og:url" content="https://slavainder.github.io/M202A/" />
-<meta property="og:site_name" content="[“EMG - Based Virtual Input via Machine Learning”]" />
-<script type="application/ld+json">
-{"@type":"WebSite","url":"https://slavainder.github.io/M202A/about","name":"[“About”]","headline":"[“EMG - Based Virtual Input via Machine Learning”]","description":"[“implementing real-time hand gesture recognition to control miscellaneous devices”]","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="/M202A/assets/css/style.css?v=2830014bd59184e2d1054abfb78cb06d3137f6ea">
