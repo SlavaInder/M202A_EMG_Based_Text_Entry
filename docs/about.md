@@ -12,5 +12,8 @@
       <li>Develop feature extraction algorithm and neural network implementation</li>
       <li>Demonstrate translation of gesture recognition algorithm via Android application</li>
     </ul></p>
+    
+    <h1>Implications and Today's Status</h1>
+    <p>Currently, there are no products that can adequately translate mimimal human motion into specific actions without environment-specific equipment or inefficient amounts of interactive hardware. Currently, the Tap Strap is the only commercially available product that is able to read single-finger gestures, but it requires the usage of 5 accelerometers attached to each finger. The expectation of this project is to demonstrate the capability of utilizing one Myo Armband to distinctively evaluate single-finger gestures at a real-time speed. This will allow for a new method of human interaction with personal devices, increasing the accessibility and efficiency of daily tasks.</p>
   </body>
 </html>
