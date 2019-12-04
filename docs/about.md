@@ -1,10 +1,9 @@
-  </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">EMG - Based Virtual Input via Machine Learning</h1>
+      <h1 class="project-name">About</h1>
       <h2 class="project-tagline">implementing real-time hand gesture recognition to control miscellaneous devices</h2>
       
-        <a href="https://github.com/SlavaInder/M202A" class="btn">View on GitHub</a>
+        <a href="https://github.com/SlavaInder/M202A/" class="btn">View on GitHub</a>
       
       
     </section>
