@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Previous Works
+title: Prior Works
 permalink: /previousworks/
 ---
 <html>
