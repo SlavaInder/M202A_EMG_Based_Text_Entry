@@ -33,8 +33,6 @@ permalink: /methodsandresults/
   <html>
   <h3>Classification</h3>
   </html>
-  <html>
-  
   ```python
   # Creates a new file with marked times based on frequency
   # m_class_editor = class_editor(frequency, filenames)
