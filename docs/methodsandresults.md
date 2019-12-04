@@ -13,13 +13,20 @@ permalink: /methodsandresults/
     <p></p>
     <h3>Algorithms</h3>
     <p></p>
+    <h3>Feature Extraction Code Samples</h3>
   </body></html>
-  #Feature Extraction Code Samples
   ```python
-  import foobar
-  foobar.pluralize('word') # returns 'words'
-  foobar.pluralize('goose') # returns 'geese'
-  foobar.singularize('phenomena') # returns 'phenomenon'
+  # Creates a new file with marked times based on frequency
+  # m_class_editor = class_editor(frequency, filenames)
+  m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
+  m_class_editor.process_all_files()
+  
+  # Extracts the features from the timestamped dataset from m_class_editor
+  # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
+  # l = number of samples per segment
+  # L = number of segments per window
+  m_converter = converter(2, 40, 200, 5, "emgset0")
+  m_converter.process_all_files()
   ```
   <html>
     <body>
