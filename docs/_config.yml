@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
-topnav: navigation
+values:
+  topnav: navigation
 title: [EMG - Based Virtual Input via Machine Learning]
 description: [implementing real-time hand gesture recognition to control miscellaneous devices]
