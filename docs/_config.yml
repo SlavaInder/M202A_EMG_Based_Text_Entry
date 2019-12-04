@@ -1,8 +1,13 @@
 title: Embedded Systems
-author: Michael Kim
-email: mhk150230@g.ucla.edu
-author: Viacheslav Inderiakin
-email: v.inderiakin.uk@gmail.com
+authors:
+  michael:
+    name: Michael Kim
+    email: mhk150230@g.ucla.edu
+  slava:
+    name: Viacheslav Inderiakin
+    email: v.inderiakin.uk@gmail.com
+    
+    
 description: implementing real-time hand gesture recognition to control miscellaneous devices
 show_excerpts: false # set to true to show excerpts on the homepage
 
