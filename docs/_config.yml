@@ -23,12 +23,11 @@ minima:
     rss: rss
 
 header_pages:
- - about.md
  - previousworks.md
  - methodsandresults.md
- #- workbreakdown.md
- #- futuredirection.md
- #- references.md
+ - workbreakdown.md
+ - futuredirection.md
+ - references.md
 
 # Build settings
 theme: minima
