@@ -1,11 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>[“EMG - Based Virtual Input via Machine Learning”] | [“implementing real-time hand gesture recognition to control miscellaneous devices”]</title>
+<title>[“Hello”] | [“implementing real-time hand gesture recognition to control miscellaneous devices”]</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="[“EMG - Based Virtual Input via Machine Learning”]" />
 <meta property="og:locale" content="en_US" />
