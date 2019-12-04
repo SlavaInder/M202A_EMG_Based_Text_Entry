@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Methods and Results
+title: Methods & Results
 permalink: /methodsandresults/
 ---
 <html>
