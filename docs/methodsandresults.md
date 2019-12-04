@@ -4,22 +4,22 @@ title: Methods & Results
 permalink: /methodsandresults/
 ---
 <html>
+  <style>
+  #center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  </style>
   <body>
     <h3>Method</h3>
     <p>There have been many previous designs revolved around determining the best machine learning model to predict gestures from sEMG signal analysis. The many different models and algorithms included: GRU,</p>
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 7 single-finger gestures on the left arm.</p>
     <figure>
-      <style>
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-      </style>
-      <img src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png" class = "center">
-      <figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a></figcaption>
+      <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png" class = "center">
+      <figcaption id = "center"><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a></figcaption>
     </figure>
     <h3>Datasets</h3>
     <p>The complete dataset for our project can be found on our GitHub repo or click here</p>
