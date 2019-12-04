@@ -1,6 +1,5 @@
 <html>
-  <body>
-    <div class="topnav">
+  <div class="topnav">
       <a class="active" href="https://slavainder.github.io/M202A/">Home</a>
       <a href="https://slavainder.github.io/M202A/about">About</a>
       <a href="https://slavainder.github.io/M202A/previousworks">Previous Works</a>
@@ -40,8 +39,9 @@
            top: 0px;
         }
       </style>
-      
-    </div>    
+     
+  </div>  
+  <body>  
     <h1>Our Mission</h1>
     <p>Our goal is to create a multi-use application via EMG-sensors to simplify the process of everyday tasks. Imagine controlling your TV, projector, computer, or even mobile device simply by moving your hands! This is the aim of our project and through the recognition of gestures and movement, we look to accomplish this goal and set a new standard of innovation!<br><br>Goals of the Product:<br>1) Differentiate between a total of 8 EMG signals<br>2) Properly integrate machine learning algorithm, differentiation, and external output</p>
 
