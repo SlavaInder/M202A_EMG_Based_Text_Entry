@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
 <html>
   <body>  
     <h1>About</h1>
