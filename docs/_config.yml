@@ -23,6 +23,7 @@ minima:
     rss: rss
 
 header_pages:
+ - about.md
  - previousworks.md
  - methodsandresults.md
  - workbreakdown.md
