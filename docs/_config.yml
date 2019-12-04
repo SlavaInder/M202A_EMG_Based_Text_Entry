@@ -1,7 +1,23 @@
-title: [EMG - Based Virtual Input via Machine Learning]
-author: GitHub User
+title: Embedded Systems
+authors:
+  michael:
+    name: Michael Kim 
+    display_name: Michael
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: hanzou@company.com
+    web: http://company.com
+    twitter: company
+    github: hhattori
+  jorgen:
+    name: Viacheslav Inderiakan 
+    display_name: Michael
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: hanzou@company.com
+    web: http://company.com
+    twitter: company
+    github: hhattori
 email: your-email@domain.com
-description: [implementing real-time hand gesture recognition to control miscellaneous devices]
+description: implementing real-time hand gesture recognition to control miscellaneous devices
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -17,6 +33,11 @@ minima:
 
 header_pages:
  - about.md
+ - previousworks.md
+ - methodsandresults.md
+ - workbreakdown.md
+ - futuredirection.md
+ - references.md
 
 # Build settings
 theme: minima
