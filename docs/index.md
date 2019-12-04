@@ -1,46 +1,4 @@
 <html>
-  <div class="topnav">
-      <a class="active" href="https://slavainder.github.io/M202A/">Home</a>
-      <a href="https://slavainder.github.io/M202A/about">About</a>
-      <a href="https://slavainder.github.io/M202A/previousworks">Previous Works</a>
-      <a href="https://slavainder.github.io/M202A/methodsandresults">Results</a>
-      <a href="https://slavainder.github.io/M202A/workbreakdown">Work Breakdown</a>
-      <a href="https://slavainder.github.io/M202A/futuredirection">Future Direction</a>
-      <a href="https://slavainder.github.io/M202A/references">References</a>
-      <style>
-        .topnav {
-          background-color: #333;
-          overflow: hidden;
-        }
-
-        .topnav a {
-          float: left;
-          color: #f2f2f2;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-
-        /* Change the color of links on hover */
-        .topnav a:hover {
-          background-color: #ddd;
-          color: black;
-        }
-
-        /* Add a color to the active/current link */
-        .topnav a.active {
-          background-color: #4CAF50;
-          color: white;
-        }
-        nav
-        {
-           position: fixed;
-           top: 0px;
-        }
-      </style>
-     
-  </div>  
   <body>  
     <h1>Our Mission</h1>
     <p>Our goal is to create a multi-use application via EMG-sensors to simplify the process of everyday tasks. Imagine controlling your TV, projector, computer, or even mobile device simply by moving your hands! This is the aim of our project and through the recognition of gestures and movement, we look to accomplish this goal and set a new standard of innovation!<br><br>Goals of the Product:<br>1) Differentiate between a total of 8 EMG signals<br>2) Properly integrate machine learning algorithm, differentiation, and external output</p>
