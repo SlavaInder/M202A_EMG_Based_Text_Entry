@@ -19,13 +19,14 @@ permalink: /methodsandresults/
       }
       </style>
       <img src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png" class = "center">
-      <figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">Source</a>></figcaption>
+      <figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a>></figcaption>
     </figure>
     <h3>Datasets</h3>
     <p></p>
     <h3>Algorithms</h3>
     <p></p>
-    <h3>Feature Extraction Code Samples</h3>
+    <h3>PipeLine</h3>
+      <h4>Classification</h4>
   </body></html>
   ```python
   # Creates a new file with marked times based on frequency
