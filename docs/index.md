@@ -34,6 +34,11 @@
           background-color: #4CAF50;
           color: white;
         }
+        nav
+        {
+           position: fixed;
+           top: 0px;
+        }
       </style>
       
     </div>    
