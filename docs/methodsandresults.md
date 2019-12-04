@@ -8,7 +8,11 @@ permalink: /methodsandresults/
     <h3>Method</h3>
     <p>There have been many previous designs revolved around determining the best machine learning model to predict gestures from sEMG signal analysis. The many different models and algorithms included: GRU,</p>
     <h3>Gesture Set</h3>
-    <p></p>
+    <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 7 single-finger gestures on the left arm.</p>
+    <figure>
+      <img src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
+      <figcaption>https://www.typing.academy/app/source/public/images/intro/en/basic-position.png></figcaption>
+    </figure>
     <h3>Datasets</h3>
     <p></p>
     <h3>Algorithms</h3>
