@@ -1,5 +1,9 @@
+---
+layout: page
+title: Previous Works
+permalink: /previousworks/
+---
 <html>
-  <h1>Previous Works</h1>
   <body>
     <h3>Background</h3>
     <p>There have been many previous designs revolved around determining the best machine learning model to predict gestures from sEMG signal analysis. The many different models and algorithms included: GRU,</p>
