@@ -1,10 +1,14 @@
 <html>
   <body>
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      <a class="active" href="https://slavainder.github.io/M202A/">Home</a>
+      <a href="https://slavainder.github.io/M202A/about">About</a>
+      <a href="https://slavainder.github.io/M202A/previousworks">Previous Works</a>
+      <a href="https://slavainder.github.io/M202A/methodsandresults">Methods and Results</a>
+      <a href="https://slavainder.github.io/M202A/workbreakdown">Work Breakdown</a>
+      <a href="https://slavainder.github.io/M202A/futuredirection">Future Direction</a>
+      <a href="https://slavainder.github.io/M202A/references">References</a>
+      
     </div>
     
     <h1>EMG Datasets</h1>
