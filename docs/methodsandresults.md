@@ -26,37 +26,70 @@ permalink: /methodsandresults/
     <p>The complete dataset for our project can be found on our GitHub repo or click here to download!</p>
     <h3>PipeLine</h3>
       <h4>Cleaning</h4>
-      <p>In order to  create a more reliable dataset, each dataset was manually combed and processed. </p>
+      <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
   </body></html>
   ```python
+  class emg_cleaner:
+    noise = []
+ 
+  def delete_points_from_start(self, points):
+    for i in range(points):
+        for j in range(len(self.emg_channels)):
+            self.emg_channels[j].pop(0)                
+    self.timeline = [i for i in range(len(self.timeline) - points)]
   
+  def delete_points_from_end(self, points):
+    for i in range(points):
+        for j in range(len(self.emg_channels)):
+            self.emg_channels[j].pop()
+    self.timeline = [i for i in range(len(self.timeline) - points)]
+    
+  def add_points_to_start(self, points):
+    random_start = randint(0, len(emg_cleaner.noise[0]) - 1 - points)
+    for i in range(points):
+        for j in range(len(self.emg_channels)):
+            self.emg_channels[j].insert(i, emg_cleaner.noise[j][random_start+i])
+    self.timeline = [i for i in range(len(self.timeline) + points)]
+
+  def replace_points_in_middle(self, start, end):
+    random_start = randint(0, len(emg_cleaner.noise[0]) - 2 - end + start)
+    for i in range(start, end + 1):
+        for j in range(len(self.emg_channels)):
+
+            self.emg_channels[j][i] = emg_cleaner.noise[j][random_start+i]
+            
+  def add_points_to_end(self, points):
+    random_start = randint(0, len(emg_cleaner.noise[0]) - 1 - points)
+    for i in range(points):
+        for j in range(len(self.emg_channels)):
+            self.emg_channels[j].append(emg_cleaner.noise[j][random_start+i])
+    self.timeline = [i for i in range(len(self.timeline) + points)]
   ```
   <html>
   <h3>Classification</h3>
+  <p>After cleaning and removing noise from the data (mainly in the resting portions), the datasets were classified. The code samples below come from the m_class_editor class.</p>
   </html>
   ```python
   # Creates a new file with marked times based on frequency
   # m_class_editor = class_editor(frequency, filenames)
   m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
   m_class_editor.process_all_files()
-  
-  # Extracts the features from the timestamped dataset from m_class_editor
-  # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
-  # l = number of samples per segment
-  # L = number of segments per window
-  m_converter = converter(2, 40, 200, 5, "emgset0")
-  m_converter.process_all_files()
   ```
   <html>
   <h3>Feature Extraction</h3>
+  <p>The cleaned and classified datasets are now ready for feature extraction. The feature extraction is done with a sliding window moving per 10 ms along the dataset. The code samples below come from the m_converter class.</p>
   </html>
   ```python
-  # Creates a new file with marked times based on frequency
-  # m_class_editor = class_editor(frequency, filenames)
-  m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
-  m_class_editor.process_all_files()
-  
   # Extracts the features from the timestamped dataset from m_class_editor
+  # This class allows to produce file output.csv file containing 7 features
+  # for 8 channels of EMG signal with timestamps. Format of output data is
+  #
+  #   [[[MAV1,  [...,  [CHP1,      CLASS0,
+  #      MAV1,   ...,   CHP1,      CLASS1,
+  #      ...................,      ......,
+  #      ...................,      ......,
+  #      ...................,      ......,
+  #      MAV1],  ...],  CHP1]],    CLASSN,
   # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
   # l = number of samples per segment
   # L = number of segments per window
