@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Implementation
-permalink: /app/
+permalink: /implementation/
 ---
