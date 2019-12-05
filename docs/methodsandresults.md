@@ -33,7 +33,7 @@ permalink: /methodsandresults/
   </style>
   <body>
     <h3>Materials</h3>
-    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128. 
+    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128.<br>Software platforms include: 
       <ul>
         <li>Python: signal cleaning, window sampling, and feature extracting</li>
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
