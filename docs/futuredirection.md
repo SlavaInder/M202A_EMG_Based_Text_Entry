@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Future Direction
+sidebar:
+  nav: "docs"
 permalink: /futuredirection/
 ---
 <html>
