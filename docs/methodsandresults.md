@@ -12,18 +12,99 @@ permalink: /methodsandresults/
     margin-right: auto;
     width: 50%;
   }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
   </style>
   <body>
-    <h3>Method</h3>
-    <p>There have been many previous designs revolved around determining the best machine learning model to predict gestures from sEMG signal analysis. The many different models and algorithms included: GRU,</p>
+    <h3>Materials</h3>
+    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects.
+      <ul>
+        <li>Python: signal cleaning, window sampling, and feature extracting 
+        <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application
+        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</ul></p>
     <h3>Gesture Set</h3>
-    <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 7 single-finger gestures on the left arm.</p>
+    <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 6 single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, and middle finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
+    <div class = "column">
+      <figure>
+        <img src="https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg" style="width:100%">
+        <center><figcaption>Finger Tap</figcaption></center>
+      </figure>
+    </div>
+    <div class = "column">
+      <figure>
+        <img src="misc/fingerextension.jpg" style="width:100%">
+        <center><figcaption>Finger Extension</figcaption></center>
+      </figure>
+    </div>
     <figure>
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
-      <center><figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a></figcaption></center>
+      <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
     <h3>Datasets</h3>
-    <p>The complete dataset for our project can be found on our GitHub repo or click here to download!</p>
+    <p>The complete dataset for our project can be found on our GitHub repo or click <a href="">here</a> to download. The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
+    <h3>Features</h3>
+    <p>There will be 6 total features extracted from each window of each channel. Therefore, there will be 48 total features being extracted from each dataset via sliding window. The features include:
+      <ul>
+        <li>Mean average value (MAV): average of the absolute values of the sEMG amplitudes and characterizes muscle contraction level
+        <br><center><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" id="mm2" overflow="scroll">
+            <mrow>
+              <mrow>
+                <mi>M</mi>
+                <mo>=</mo>
+                <mfrac>
+                  <mn>1</mn>
+                  <mi>N</mi>
+                </mfrac>
+                <mstyle displaystyle="true">
+                  <munderover>
+                    <mo>&#x2211;</mo>
+                    <mrow>
+                      <mi>k</mi>
+                      <mo>=</mo>
+                      <mn>1</mn>
+                    </mrow>
+                    <mi>N</mi>
+                  </munderover>
+                  <mrow>
+                    <mrow>
+                      <mo>|</mo>
+                      <mrow>
+                        <mi>s</mi>
+                        <mrow>
+                          <mo>(</mo>
+                          <mi>k</mi>
+                          <mo>)</mo>
+                        </mrow>
+                      </mrow>
+                      <mo>|</mo>
+                    </mrow>
+                  </mrow>
+                </mstyle>
+              </mrow>
+            </mrow>
+          </math></center>
+        <li>Root mean squared (RMS): mean power of the sEMG and characterizes the activity of the muscles
+        <li>Slope sign change (SSC): number of times the slope sign changes within the current window and characterizes the frequency information of the sEMG signal
+        <li>Waveform length (WL): total wavelength of the sEMG signal and characterizes signal complexity
+        <li>Activity Hjorth parameter (AHP): power spectrum of the frequency domain
+        <li>Mobility Hjorth parameter (MHP): average frequency of the signal
+      </ul>
     <h3>PipeLine</h3>
       <h4>Cleaning</h4>
       <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
@@ -67,15 +148,58 @@ permalink: /methodsandresults/
   ```
   <html>
   <h3>Classification</h3>
-  <p>After cleaning and removing noise from the data (mainly in the resting portions), the datasets were classified. The code samples below come from the m_class_editor class.</p>
+  <p>After cleaning and removing noise from the dataset (mainly in the resting portions), the signals were classified. By implementing the add/delete points methods of the emg_cleaner class, we were able to create standardized datasets with reliable timestamps which were then labelled accordingly. The code samples below come from the m_class_editor class.</p>
   </html>
-  ```python
-  # Creates a new file with marked times based on frequency
+  ```python   
+  def set_classification(self, edges, class_name):
+    self.classification = [0 for i in range(len(self.timeline))]
+    self.classplot = [-50 for i in range(len(self.timeline))]
+    for i in range(len(edges)):
+        for j in range(edges[i][0], edges[i][1] + 1):
+            self.classification[j] = class_name
+            if class_name == 0: self.classplot[j] = -50
+            else: self.classplot[j] = 50
+            
   # m_class_editor = class_editor(frequency, filenames)
   m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
   m_class_editor.process_all_files()
   ```
   <html>
+  <h4>Classification Table</h4>
+  <center><table>
+    <tr>
+      <th>Gesture</th>
+      <th>Class</th>
+    </tr>
+    <tr>
+      <td>No Movement</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Index Finger Tap</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Middle Finger Tap</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Ring Finger Tap</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Pinky Finger Tap</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Thumb Tap</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Ring Finger Extension</td>
+      <td>6</td>
+    </tr>
+    </table></center>
   <h3>Feature Extraction</h3>
   <p>The cleaned and classified datasets are now ready for feature extraction. The feature extraction is done with a sliding window moving per 10 ms along the dataset. The code samples below come from the m_converter class.</p>
   </html>
@@ -90,6 +214,21 @@ permalink: /methodsandresults/
   #      ...................,      ......,
   #      ...................,      ......,
   #      MAV1],  ...],  CHP1]],    CLASSN,
+  
+  # This function takes the window and calculates the Activity Hjorth Parameter for the window
+  def get_MHP(self, w):
+    # AHP w/ s
+    sum1 = 0
+    for x in range(0, len(w)):
+        sum1 = sum1 + w[x]**2
+
+    # AHP w/ s'
+    sum2 = 0
+    for x in range(0, len(w)-1):
+        sum2 = sum2 + (w[x+1] - w[x])**2
+
+    return (sum2/sum1)**(0.5)
+  
   # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
   # l = number of samples per segment
   # L = number of segments per window
