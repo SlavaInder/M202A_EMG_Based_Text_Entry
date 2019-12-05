@@ -21,7 +21,8 @@ permalink: /workbreakdown/
       clear: both;
       display: table;
     }
-   </style></head>
+   </style>
+  </head>
   <body>
     <div class = "row">
       <div class = "column">
