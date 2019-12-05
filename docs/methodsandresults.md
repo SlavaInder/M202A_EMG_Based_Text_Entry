@@ -6,6 +6,9 @@ permalink: /methodsandresults/
 ---
 <html>
   <style>
+    * {
+      box-sizing: border-box;
+    }
   #center {
     display: block;
     margin-left: auto;
@@ -71,42 +74,17 @@ permalink: /methodsandresults/
     <p>There will be 6 total features extracted from each window of each channel. Therefore, there will be 48 total features being extracted from each dataset via sliding window. The features include:
       <ul>
         <li>Mean average value (MAV): average of the absolute values of the sEMG amplitudes and characterizes muscle contraction level</li>
-        <center><math display="block">
-          <mi>x</mi>
-          <mo>=</mo>
-          <mrow class="MJX-TeXAtom-ORD">
-            <mfrac>
-              <mn>1</mn>
-              <mi>N</mi>
-            </mfrac>
-          </mrow>
-          <mrow class="MJX-TeXAtom-ORD">
-            <munderover>
-              <mo>&#x2211;</mo>
-              <mrow class="MJX-TeXAtom-ORD">
-                <mi>i</mi>
-                <mi>k</mi>
-                <mo>=</mo>
-                <mn>1</mn>
-              </mrow>
-              <mi>N</mi>
-            </munderover>
-            <mrow class="MJX-TeXAtom-ORD">
-              <mo stretchy="false">|</mo>
-              <mi>s</mi>
-              <mo stretchy="false">(</mo>
-              <mi>k</mi>
-              <mo stretchy="false">)</mo>
-              <mo stretchy="false">|</mo>
-            </mrow>
-          </mrow>
-          <mo>.</mo>
-        </math></center>
+        <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MAV.png"></center>
         <li>Root mean squared (RMS): mean power of the sEMG and characterizes the activity of the muscles</li>
+        <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/RMS.png"></center>
         <li>Slope sign change (SSC): number of times the slope sign changes within the current window and characterizes the frequency information of the sEMG signal</li>
+        <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/SSC.png"></center>
         <li>Waveform length (WL): total wavelength of the sEMG signal and characterizes signal complexity</li>
+        <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/WL.png"></center>
         <li>Activity Hjorth parameter (AHP): power spectrum of the frequency domain</li>
+        <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/AHP.png"></center>
         <li>Mobility Hjorth parameter (MHP): average frequency of the signal</li>
+        <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MHP.png"></center>
       </ul></p>
     <h3>Cleaning</h3>
       <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
