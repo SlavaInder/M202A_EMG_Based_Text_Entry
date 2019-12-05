@@ -65,7 +65,7 @@ permalink: /workbreakdown/
            </ul>
       </div>
     </div>
-     <h2>Our Timeline</h2>
+     <h3>Our Timeline</h3>
   <table style="width:100%">
     <tr>
       <th>time period</th>
@@ -101,7 +101,7 @@ permalink: /workbreakdown/
       <td>Finalize the design; collect final set of data; fix arised issues. Measure percetage of right recognitions and latency.</td>
     </tr>
   </table>
-    <h1>Methodology Overview</h1>
+    <h3>Methodology Overview</h3>
   <p>Step 1: Reading through literatures on the topic
     <br>Step 2: Understanding algorithm and differentiation patterns
     <br>Step 3: Creating Application to connect to MyoBand
