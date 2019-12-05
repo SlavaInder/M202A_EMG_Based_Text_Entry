@@ -15,9 +15,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: rss
+    twitter: 
     github:  M202A
-    rss: rss
+    rss: 
 
 header_pages:
  - about.md
