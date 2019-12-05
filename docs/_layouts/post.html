@@ -11,7 +11,10 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author1 | escape }}</span></span>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+      {%- endif -%}
+     {%- if page.author2 -%}
+        • <span itemprop="author2" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author2 | escape }}</span></span>
       {%- endif -%}</p>
   </header>
 
@@ -23,5 +26,5 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a align = "left" class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
