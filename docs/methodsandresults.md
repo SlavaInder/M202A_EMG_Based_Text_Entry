@@ -48,7 +48,7 @@ permalink: /methodsandresults/
     </div>
     <div class = "column">
       <figure>
-        <img src="misc/fingerextension.jpg">
+        <img src="https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/fingerextension.jpg">
         <center><figcaption>Finger Extension</figcaption></center>
       </figure>
     </div>
