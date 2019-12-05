@@ -4,21 +4,40 @@ title: Work Breakdown
 permalink: /workbreakdown/
 ---
 <html>
-  <style
+<style>
     * {
       box-sizing: border-box;
-    } 
-    .column {
-      float: left;
-      width: 50%;
-      padding: 5px;
     }
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-   </style>
+  #center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
   <body>
     <div class = "row">
       <div class = "column">
