@@ -1,6 +1,0 @@
-title: LoopBack 3.x
-children:
-
-- title: 'Power'
-  url: about.md
-  output: 'web, pdf'
