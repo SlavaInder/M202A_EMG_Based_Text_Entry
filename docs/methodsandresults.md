@@ -48,7 +48,7 @@ permalink: /methodsandresults/
     </div>
     <div class = "column">
       <figure>
-        <img src="docs/misc/fingerextension.jpg" style="width:100%">
+        <img src="misc/fingerextension.jpg" style="width:100%">
         <center><figcaption>Finger Extension</figcaption></center>
       </figure>
     </div>
