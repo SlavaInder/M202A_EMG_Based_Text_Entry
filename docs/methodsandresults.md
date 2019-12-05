@@ -37,7 +37,7 @@ permalink: /methodsandresults/
       <ul>
         <li>Python: signal cleaning, window sampling, and feature extracting</li>
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
-        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul>
+        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul></p>
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 6 single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, and middle finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
     <div class = "column">
