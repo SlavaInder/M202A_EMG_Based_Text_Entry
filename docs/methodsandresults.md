@@ -22,10 +22,10 @@ permalink: /methodsandresults/
       <center><figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a></figcaption></center>
     </figure>
     <h3>Datasets</h3>
-    <p>The complete dataset for our project can be found on our GitHub repo or click here</p>
+    <p>The complete dataset for our project can be found on our GitHub repo or click here to download!</p>
     <h3>PipeLine</h3>
       <h4>Cleaning</h4>
-      <p>In order to  create a more reliable dataset, </p>
+      <p>In order to  create a more reliable dataset, each dataset was manually combed and processed. </p>
   </body></html>
   ```python
   
@@ -65,7 +65,7 @@ permalink: /methodsandresults/
   <html>
     <body>
     <h3>Artifical Neural Network Architecture</h3>
-    <p>Our model consists of 3 layers: the input layer, the hidden layer, and the output layer. The input layer consisted of 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer consisted of 24 nodes (half of the input layer), and the output layer consisted of 15 nodes, correlating to the total number of gestures being classified including when the hand is at rest. The hidden layer consisted of a sigmoid activation function which worked in conjunction with the softmax layer. The sigmoid activation function works to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1.</p>
+    <p>Our model consists of 3 layers: the input layer, the hidden layer, and the output layer. The input layer contains 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer contains 24 nodes (half of the input layer), and the output layer contains 15 nodes, correlating to the total number of gestures being classified including when the hand is at rest. The hidden layer consisted of a sigmoid activation function which worked in conjunction with the softmax layer. The sigmoid activation function works to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1.</p>
     <h3>ANN Model Code Samples</h3>
     <p></p>
     </body>
