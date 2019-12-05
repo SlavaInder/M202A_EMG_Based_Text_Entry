@@ -25,7 +25,7 @@ header_pages:
  - methodsandresults.md
  - workbreakdown.md
  - futuredirection.md
- - app.md
+ - implementation.md
  - references.md
 
 # Build settings
