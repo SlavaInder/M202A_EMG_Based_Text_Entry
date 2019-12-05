@@ -18,7 +18,7 @@ permalink: /methodsandresults/
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 7 single-finger gestures on the left arm.</p>
     <figure>
-      <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png" class = "center">
+      <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption><a href="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png"> Img Source</a></figcaption></center>
     </figure>
     <h3>Datasets</h3>
