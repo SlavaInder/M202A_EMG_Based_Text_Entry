@@ -27,5 +27,8 @@ permalink: /about/
           <img class = "size" src="https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg">
           <center><figcaption>The Tap Strap translates the change in accelerometer readings to user input</figcaption></center>
         </figure></center>
+  <h1>Novelty</h1>
+  <h3>Approach</h3>
+  <h3>Design</h3>
   </body>
 </html>
