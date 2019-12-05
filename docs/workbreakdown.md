@@ -125,5 +125,5 @@ permalink: /workbreakdown/
         <li>Typing and functions properly executed</li>
         <li>Reasonable speed of input</li>
       </ol>
-    </ul>
+    </ul></p>
   </body></html>
