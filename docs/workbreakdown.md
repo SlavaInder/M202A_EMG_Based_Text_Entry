@@ -47,9 +47,9 @@ permalink: /workbreakdown/
               <li>EMG Data Collection</li>
               <li>Dataset Compilation</li> 
               <li>Feature Extraction Code</li>
-              <li>ANN Training/Evaluating</li> 
-              <li>EMG Data Collection</li>
+              <li>ANN Training/Evaluating</li>
               <li>Website/Presentations</li> 
+              <li>Documentation</li>
           </ul>
       </div>
       <div class = "column">
