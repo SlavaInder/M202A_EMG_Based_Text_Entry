@@ -35,9 +35,9 @@ permalink: /methodsandresults/
     <h3>Materials</h3>
     <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128. 
       <ul>
-        <li>Python: signal cleaning, window sampling, and feature extracting 
-        <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application
-        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</ul>
+        <li>Python: signal cleaning, window sampling, and feature extracting</li>
+        <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
+        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul>
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 6 single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, and middle finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
     <div class = "column">
@@ -202,8 +202,29 @@ permalink: /methodsandresults/
   <html>
     <body>
     <h3>Artifical Neural Network Architecture</h3>
-    <p>Our model consists of 3 main layers: the input layer, the hidden layer, and the output layer. The input layer contains 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer contains 24 nodes (half of the input layer), and the output layer contains 7 nodes, correlating to the total number of classified gestures. The hidden layer consists of a sigmoid activation function which worked in conjunction with the softmax layer. The sigmoid activation function works to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1.</p>
+    <p>Our model consists of 3 main layers: the input layer, the hidden layer, and the output layer. The input layer contains 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer contains 24 nodes (half of the input layer), and the output layer contains 7 nodes, correlating to the total number of classified gestures. The number of nodes for the hidden layer were empirically determined given the size of our dataset and the number of input layers. Additionally, a sigmoid activation function was implemented to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1. This model demonstrated high accuracy and was chosen based upon the conclusions of outside research.</p>
     <h3>ANN Model Code Samples</h3>
-    <p></p>
+    <p>After training and evaluation, our model was able to demonstrate an accuracy of approximately 90% with the 8 different classes. The code samples below demonstrate how we trained and evaluted our model.</p>
     </body>
-</html>
+  </html>  
+  ```python
+  # init and compile NN network
+  model = tf.keras.Sequential()
+  model.add(layers.Dense(56))
+  model.add(layers.Dense(28, activation='sigmoid'))
+  model.add(layers.Dense(8, activation='softmax'))
+  model.compile(optimizer=tf.keras.optimizers.Adam(0.01),
+                loss='categorical_crossentropy',
+                metrics=['accuracy'])
+                
+  # load data
+  data = mvectors_producer.training_array
+  labels = mvectors_producer.training_labels
+  val_data = mvectors_producer.validation_array
+  val_labels = mvectors_producer.validation_labels
+
+  # train NN network
+  model.fit(data, labels, epochs=10, batch_size=32,
+            validation_data=(val_data, val_labels))
+  
+  ```
