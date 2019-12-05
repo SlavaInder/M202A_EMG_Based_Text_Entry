@@ -4,6 +4,13 @@
 # between the top bar and the list of recent posts.
 # To change the home page layout, edit the _layouts/home.html file.
 layout: home
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
 ---
 
 <html>
