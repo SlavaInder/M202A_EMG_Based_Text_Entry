@@ -15,9 +15,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: 
+    twitter: ucla
     github:  M202A
-    rss: 
+    rss: ucla
 
 header_pages:
  - about.md
