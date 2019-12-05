@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Methods & Results
-sidebar: contrib_sidebar
 permalink: /methodsandresults/
 ---
 <html>
