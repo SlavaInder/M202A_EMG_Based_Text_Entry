@@ -6,7 +6,6 @@ sidebar:
 permalink: /workbreakdown/
 ---
 <html>
-  <head>
   <style
     * {
       box-sizing: border-box;
@@ -22,7 +21,6 @@ permalink: /workbreakdown/
       display: table;
     }
    </style>
-  </head>
   <body>
     <div class = "row">
       <div class = "column">
