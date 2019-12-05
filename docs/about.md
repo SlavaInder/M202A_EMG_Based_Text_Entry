@@ -22,7 +22,6 @@ permalink: /about/
           <center><figcaption>The Tap Strap translates the change in accelerometer readings to user input</figcaption></center>
         </figure></center>
   <h1>Novelty</h1>
-  <h3>Approach</h3>
-  <h3>Design</h3>
+  <p>As stated previously, there have not been iterations of Myo Armband-based applications revolved around the interpretation of single-finger gestures. Recently, real-time classification of dissimilar, whole-hand gestures have been implemented into the Myo Armband, but the classification of single-finger gestures at a real-time rate have yet to be utilized due to the high EMG signal similarity between these movements. Our robust methods of cleaning and classifying allow for stronger feature-extracted datasets that ultimately lead to a strong classifier to differentiate between these single-finger gestures. We demonstrate the accuracy of our model by integrating it into our android application./p>
   </body>
 </html>
