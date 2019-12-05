@@ -17,8 +17,9 @@ permalink: /about/
       </ul></p>
       <h1>Implications and Today's Status</h1>
       <p>Currently, there are no products that can adequately translate mimimal human motion into specific actions without environment-specific equipment or inefficient amounts of interactive hardware. Currently, the Tap Strap is the only commercially available product that is able to read single-finger gestures, but it requires the usage of 5 accelerometers attached to each finger. The expectation of this project is to demonstrate the capability of utilizing one Myo Armband to distinctively evaluate single-finger gestures at a real-time speed. This will allow for a new method of human interaction with personal devices, increasing the accessibility and efficiency of daily tasks.</p>
-  <figure>
-      <img id = "center" src="https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg">
-      <center><figcaption>The Tap Strap<a href="https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg">Source</a></figcaption></center>
+      <figure>
+          <img id = "center" src="https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg">
+          <center><figcaption>The Tap Strap: <a href="https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg">Source</a></figcaption></center>
+      </figure>
   </body>
 </html>
