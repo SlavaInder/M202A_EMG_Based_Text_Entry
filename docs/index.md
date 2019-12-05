@@ -12,73 +12,16 @@ layout: home
     <p>Our goal is to create a multi-use application via EMG-sensors to simplify the process of everyday tasks. Imagine controlling your TV, projector, computer, or even mobile device simply by moving your hands! This is the aim of our project and through the recognition of gestures and movement, we look to accomplish this goal and set a new standard of innovation!<br><br>Goals of the Product:<br>1) Differentiate between a total of 8 EMG signals<br>2) Properly integrate machine learning algorithm, differentiation, and external output</p>
     <h1>Our Approach</h1>
     <p>In order to fulfill the aim of our project, we look to gather multiple EMG signals derived from the human hand and differentiate the multiple readings at real-time speeds. The implementation of machine learning algorithms will be vital in obtaining the results we desire. The consistency and workability of our initial model will then be rounded out through a series of tests and observations to create an improved final product.</p>
-    
-    <h1>Our Research</h1>
-    <p>Surface electromyography signals (sEMG) can be monitored on many parts of the body, but for the purposes of our project, we will be focusing on the wrist area. In total, we aim to differentiate between the 8 sEMG signals that can be gathered from the wrist. The machine learning algorithm that will be mainly explored is the Linear Discriminant Analysis (LDA) in conjunction with wavelet packet transform (WPT) which have been observed to differentiate the most signals through EMG analysis.</p>
-
     <h1>Deliverables</h1>
     <p><ul>
       <li>Training set of data gathered from EMG sygnals</li>
       <li>Recognition algorithm and its implementation</li>
     </ul></p> 
   <h1>Work Breakdown</h1>
-  <table>
-  
-    <tr>
-      <th>Viacheslav Inderiakin</th>
-      <th>Michael Kim</th>
-    </tr>
-  
-    <tr>
-      <td><ul>
-          <li>Literature review on acquiring, filtering EMG signal and extracting valuable features from it;</li>
-          <li>Configurating and testing hardware;</li>
-          <li>EMG-signal data gathering and preprocessing;</li>
-          <li>Integrating with external output;</li>
-      </ul></td>
-      <td><ul>
-          <li>Literature review on Machine Learning algorithms for online pattern recognition;</li>
-          <li>Creating a skeleton of algorithm's implementation;</li>
-          <li>Testing algorithm performance on samples;</li>
-          <li>Website updates and support;</li>
-      </ul></td>
-    </tr>
-  </table>  
-    
 <p>Both Members will</p>
 <ul>
   <li>Debug the fully assembled system (hardware + software</li>
   <li>Contribute to final report and presentations</li>
 </ul>
-      
-  
-  <h1>Methodology</h1>
-  <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments
-    <br>Step 2: Understanding algorithm and differentiation patterns
-    <br>Step 3: Research/Observations with MyoBand<br>Step 4: Complete PCB and rough draft of code
-    <br>Step 5: Create prototype of product
-    <ul>
-      <li>Test with multiple subjects and determine accuracy of the gesture differentiation between each individual's input; multiple trials of each gesture</li>
-      <li>Determine delay with EMG differentiation</li>
-      <li>If needed, test accuracy of other algorithmic models with samples to determine best fit interpretation</li>
-    </ul>
-    Step 6: Integrate with external monitor
-    <ul>
-      <li>Determine delay with integration</li>
-      <li>Test application with same subjects</li>
-    </ul>
-    Step 7: Analysis of product
-    <ul>
-      <li>Success metrics:</li>
-      <ol>
-        <li>Less than 0.1 second delay</li>
-        <li>>90% accuracy</li>
-        <li>Typing and functions properly executed</li>
-        <li>Reasonable speed of input</li>
-      </ol>
-    </ul>
-  </p>
-  
-  <center><img src="ExampleTable1.png" alt="Example Table"/></center><p><center>Example table for analyzing the results from testing</center></p>
   </body>
 </html>
