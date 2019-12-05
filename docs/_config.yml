@@ -35,6 +35,10 @@ header_pages:
 # Build settings
 theme: minima
 
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
