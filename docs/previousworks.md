@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Prior Works
-sidebar: contrib_sidebar
 permalink: /previousworks/
 ---
 <html>
