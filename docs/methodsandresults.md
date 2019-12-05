@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Methods & Results
-permalink: /methodsandresults/
+title: Methods
+permalink: /methods/
 ---
 <html>
   <style>
