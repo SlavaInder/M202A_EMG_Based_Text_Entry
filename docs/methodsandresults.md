@@ -14,8 +14,8 @@ permalink: /methodsandresults/
   }
   .column {
     float: left;
-    width: 45%;
-    padding: 10 px;
+    width: 30%;
+    padding: 15 px;
   }
   table {
     border-collapse: collapse;
