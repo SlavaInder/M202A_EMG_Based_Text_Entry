@@ -5,8 +5,7 @@ permalink: /futuredirection/
 ---
 <html>
   <body>
-    <h1>Future Implications</h1>
-    <p></p>
+    <p>The ability to recognize single-finger gestures will allow for a new method of interaction between people and their personal devices, and this demonstrates great significance especially considering the new wave of technology that is IoT. Given additional time to develop, our design can be fully functional across both hands and across the spectrum for device input. This looks to include all characters on the keyboard and more robust control of these miscellaneous devices. The greatest features of our model include the ease of access and the novelty of our design.</p>
     <h1>Limitations</h1>
     <p>Overall, our project demonstrated the capabilities of a feature-extraction algorithm to distinguish single-finger gestures. Nevertheless, there remains a few limitations to the design that we present.<br>
     <br>1) There exists ambiguity when attempting to distinguish additional single-finger gestures within the same hand<br> 
