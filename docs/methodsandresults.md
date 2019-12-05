@@ -42,13 +42,13 @@ permalink: /methodsandresults/
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 6 single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, and middle finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
     <div class = "column">
       <figure>
-        <img src="https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg">
+        <img src="https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg" style="width:100%">
         <center><figcaption>Finger Tap</figcaption></center>
       </figure>
     </div>
     <div class = "column">
       <figure>
-        <img src="https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/fingerextension.jpg">
+        <img src="https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/fingerextension.jpg" style="width:100%">
         <center><figcaption>Finger Extension</figcaption></center>
       </figure>
     </div>
