@@ -66,7 +66,7 @@ permalink: /workbreakdown/
       </div>
     </div>
      <h2>Our Timeline</h2>
-  <table>
+  <center><table>
     <tr>
       <th>time period</th>
       <th>task</th>
@@ -101,5 +101,31 @@ permalink: /workbreakdown/
       <td>11/23/2019 - 11/22/2019</td>
       <td>Finalize the design; collect final set of data; fix arised issues. Measure percetage of right recognitions and latency.</td>
     </tr>
-  </table>
+  </table></center>
+  
+    <h1>Methodology</h1>
+  <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments
+    <br>Step 2: Understanding algorithm and differentiation patterns
+    <br>Step 3: Research/Observations with MyoBand<br>Step 4: Complete PCB and rough draft of code
+    <br>Step 5: Create prototype of product
+    <ul>
+      <li>Test with multiple subjects and determine accuracy of the gesture differentiation between each individual's input; multiple trials of each gesture</li>
+      <li>Determine delay with EMG differentiation</li>
+      <li>If needed, test accuracy of other algorithmic models with samples to determine best fit interpretation</li>
+    </ul>
+    Step 6: Integrate with external monitor
+    <ul>
+      <li>Determine delay with integration</li>
+      <li>Test application with same subjects</li>
+    </ul>
+    Step 7: Analysis of product
+    <ul>
+      <li>Success metrics:</li>
+      <ol>
+        <li>Less than 0.1 second delay</li>
+        <li>>90% accuracy</li>
+        <li>Typing and functions properly executed</li>
+        <li>Reasonable speed of input</li>
+      </ol>
+    </ul>
   </body></html>
