@@ -23,7 +23,8 @@ header_pages:
  - index.md
  - about.md
  - previousworks.md
- - methodsandresults.md
+ - methods.md
+ - results.md
  - workbreakdown.md
  - futuredirection.md
  - implementation.md
