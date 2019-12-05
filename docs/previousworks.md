@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Prior Works
+sidebar:
+  nav: "docs"
 permalink: /previousworks/
 ---
 <html>
