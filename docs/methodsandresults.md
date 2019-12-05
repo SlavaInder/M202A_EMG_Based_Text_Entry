@@ -33,7 +33,7 @@ permalink: /methodsandresults/
   </style>
   <body>
     <h3>Materials</h3>
-    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects.
+    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128. 
       <ul>
         <li>Python: signal cleaning, window sampling, and feature extracting 
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application
@@ -202,7 +202,7 @@ permalink: /methodsandresults/
   <html>
     <body>
     <h3>Artifical Neural Network Architecture</h3>
-    <p>Our model consists of 3 layers: the input layer, the hidden layer, and the output layer. The input layer contains 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer contains 24 nodes (half of the input layer), and the output layer contains 15 nodes, correlating to the total number of gestures being classified including when the hand is at rest. The hidden layer consisted of a sigmoid activation function which worked in conjunction with the softmax layer. The sigmoid activation function works to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1.</p>
+    <p>Our model consists of 3 main layers: the input layer, the hidden layer, and the output layer. The input layer contains 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer contains 24 nodes (half of the input layer), and the output layer contains 7 nodes, correlating to the total number of classified gestures. The hidden layer consists of a sigmoid activation function which worked in conjunction with the softmax layer. The sigmoid activation function works to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1.</p>
     <h3>ANN Model Code Samples</h3>
     <p></p>
     </body>
