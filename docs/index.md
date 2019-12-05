@@ -5,7 +5,7 @@
 # To change the home page layout, edit the _layouts/home.html file.
 layout: home
 title: Home
-permalink: /index/
+permalink: /
 ---
 
 <html>
