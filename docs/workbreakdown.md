@@ -41,7 +41,7 @@ permalink: /workbreakdown/
   <body>
     <div class = "row">
       <div class = "column">
-        <center><h2>Michael</h2>
+         <center><h2>Michael</h2></center>
           <ul>
             <li>Literature Review</li>
               <li>EMG Data Collection</li>
@@ -50,10 +50,10 @@ permalink: /workbreakdown/
               <li>ANN Training/Evaluating</li>
               <li>Website/Presentations</li> 
               <li>Documentation</li>
-           </ul></center>
+           </ul>
       </div>
       <div class = "column">
-        <center><h2>Viacheslav</h2>
+         <center><h2>Viacheslav</h2></center>
         <ul>
           <li>Literature Review</li>
             <li>EMG Cleaning</li>
@@ -62,7 +62,7 @@ permalink: /workbreakdown/
             <li>Feature Extraction Code</li>
             <li>ANN Training/Evaluating</li> 
             <li>Android Application</li>
-           </ul></center>
+           </ul>
       </div>
     </div>
   </body></html>
