@@ -26,11 +26,11 @@ permalink: /references/
     <p>
       <h3>Image Sources</h3>
       <ol>
-        <li>Tap Strap: https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg</li>
-        <li>Keyboard Gestures: https://www.typing.academy/app/source/public/images/intro/en/basic-position.png</li>
-        <li>Finger Tap: https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg</li>
-        <li>Finger Extension: https://www.online-tech-tips.com/wp-content/uploads/2018/10/touch-typing-tips.jpg.optimal.jpg</li>
+        <li>Tap Strap:<br>https://cnet1.cbsistatic.com/img/00XQEmFzx7Xio51Kw8V0E4zo_oE=/2017/11/21/b97d2dc7-e471-47b8-a2e0-9091b2d26bcd/fl-tapkeyboard-cnetstill.jpg</li>
+        <li>Keyboard Gestures:<br>https://www.typing.academy/app/source/public/images/intro/en/basic-position.png</li>
+        <li>Finger Tap:<br>https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg</li>
+        <li>Finger Extension:<br>https://www.online-tech-tips.com/wp-content/uploads/2018/10/touch-typing-tips.jpg.optimal.jpg</li>
         <li></li>
-      </ol>
+      </ol></p>
   </body>
 </html>
