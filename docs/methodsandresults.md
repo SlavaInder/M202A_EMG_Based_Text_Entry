@@ -68,7 +68,7 @@ permalink: /methodsandresults/
         <li>Waveform length (WL): total wavelength of the sEMG signal and characterizes signal complexity</li>
         <li>Activity Hjorth parameter (AHP): power spectrum of the frequency domain</li>
         <li>Mobility Hjorth parameter (MHP): average frequency of the signal</li>
-      </ul>
+      </ul></p>
     <h3>Cleaning</h3>
       <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
   </body></html>
