@@ -66,12 +66,11 @@ permalink: /workbreakdown/
       </div>
     </div>
      <h2>Our Timeline</h2>
-  <center><table>
+  <table style="width:100%">
     <tr>
       <th>time period</th>
       <th>task</th>
     </tr>
-    
     <tr>
       <td>10/20/2019 - 10/25/2019 </td>
       <td>Create a detailed timeline and work breakdown for the project within the upcoming weeks</td>
@@ -101,8 +100,7 @@ permalink: /workbreakdown/
       <td>11/23/2019 - 11/22/2019</td>
       <td>Finalize the design; collect final set of data; fix arised issues. Measure percetage of right recognitions and latency.</td>
     </tr>
-  </table></center>
-  
+  </table>
     <h1>Methodology</h1>
   <p>Step 1: Reading through literatures on the topic and finding starting point based upon previous experiments
     <br>Step 2: Understanding algorithm and differentiation patterns
