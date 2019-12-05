@@ -55,13 +55,12 @@
     </main>
     
     <div class="sidenav">
-      <a href="#about">About</a>
-      <a href="#services">Prior Works</a>
-      <a href="#clients">Methods & Results</a>
-      <a href="#contact">Work Breakdown</a>
-      <a href="#contact">Future Direction</a>
-      <a href="#contact">Implementation</a>
-      <a href="#contact">References</a>
+      {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
     </div>   
 
     {%- include footer.html -%}
