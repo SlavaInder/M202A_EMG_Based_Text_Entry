@@ -1,6 +1,8 @@
 ---
 layout: page
 title: References
+sidebar:
+  nav: "docs"
 permalink: /references/
 ---
 <html>
