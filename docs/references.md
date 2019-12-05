@@ -7,7 +7,6 @@ permalink: /references/
 ---
 <html>
   <body>
-      <h1>References</h1>
         <p><ol>
           <li>"EMG Based Decoding of Object Motion in Dexterous, In-Hand Manipulation Tasks" by A. Dwivedi, Y. Kwon, et. al. 
             <br/>https://www.newdexterity.org/2018_BioRob_EMGDexterousManipulation.pdf</li>
