@@ -14,7 +14,7 @@ permalink: /methodsandresults/
   }
   .column {
     float: left;
-    width: 50%;
+    width: 40%;
     padding: 5px;
   }
   table {
@@ -69,8 +69,7 @@ permalink: /methodsandresults/
         <li>Activity Hjorth parameter (AHP): power spectrum of the frequency domain</li>
         <li>Mobility Hjorth parameter (MHP): average frequency of the signal</li>
       </ul>
-    <h3>PipeLine</h3>
-      <h4>Cleaning</h4>
+    <h3>Cleaning</h3>
       <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
   </body></html>
   ```python
@@ -110,9 +109,9 @@ permalink: /methodsandresults/
             self.emg_channels[j].append(emg_cleaner.noise[j][random_start+i])
     self.timeline = [i for i in range(len(self.timeline) + points)]
   ```
-  <html>
+  <html><body>
   <h3>Classification</h3>
-  <p>After cleaning and removing noise from the dataset (mainly in the resting portions), the signals were classified. By implementing the add/delete points methods of the emg_cleaner class, we were able to create standardized datasets with reliable timestamps which were then labelled accordingly. The code samples below come from the m_class_editor class.</p></html>
+  <p>After cleaning and removing noise from the dataset (mainly in the resting portions), the signals were classified. By implementing the add/delete points methods of the emg_cleaner class, we were able to create standardized datasets with reliable timestamps which were then labelled accordingly. The code samples below come from the m_class_editor class.</p></body></html>
   ```python   
   def set_classification(self, edges, class_name):
     self.classification = [0 for i in range(len(self.timeline))]
