@@ -2,7 +2,7 @@
 layout: post
 title: "Some other info"
 categories: junk
-author: "Bart Simpson"
+author: "Michael Kim and Viacheslav Inderiakin"
 meta: "Springfield"
 ---
 
