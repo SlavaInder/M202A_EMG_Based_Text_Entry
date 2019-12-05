@@ -45,7 +45,7 @@ permalink: /methodsandresults/
         <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul></p>
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of the single-finger gestures, we will be focusing on the classification of 6 single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, and middle finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
-    <div class = "row>
+    <div class = "row">
       <div class = "column">
         <figure>
           <img src="https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg" style="width:100%">
@@ -63,13 +63,45 @@ permalink: /methodsandresults/
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
+    <h3>Data Collection</h3>
+    <p>The Myo Armband was placed approximately 3 inches from the elbow with the LED display facing towards the inner left arm on right-handed subjects. The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.</p>
     <h3>Datasets</h3>
-    <p>The complete dataset for our project can be found on our GitHub repo or click <a href="">here</a> to download. The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
+    <p>The complete dataset for our project can be found on our GitHub repo or click <a href="">here</a> to download.<br>The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
     <h3>Features</h3>
     <p>There will be 6 total features extracted from each window of each channel. Therefore, there will be 48 total features being extracted from each dataset via sliding window. The features include:
       <ul>
         <li>Mean average value (MAV): average of the absolute values of the sEMG amplitudes and characterizes muscle contraction level</li>
-        <center><math style="font-family:stix" xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathsize="22px"><mrow><mo>[</mo><mi>M</mi><mi>A</mi><mi>V</mi><mo>]</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>1</mn><mi>N</mi></mfrac><munderover><mo>&#x2211;</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mo>&#xA0;</mo><mo>|</mo><mo>&#x2009;</mo><mi>s</mi><mo>(</mo><mi>k</mi><mo>)</mo><mo>|</mo></mrow></mstyle></math></center>
+        <center><math display="block">
+          <mi>x</mi>
+          <mo>=</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mn>1</mn>
+              <mi>N</mi>
+            </mfrac>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <munderover>
+              <mo>&#x2211;</mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>i</mi>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+              <mi>N</mi>
+            </munderover>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mo stretchy="false">|</mo>
+              <mi>s</mi>
+              <mo stretchy="false">(</mo>
+              <mi>k</mi>
+              <mo stretchy="false">)</mo>
+              <mo stretchy="false">|</mo>
+            </mrow>
+          </mrow>
+          <mo>.</mo>
+        </math></center>
         <li>Root mean squared (RMS): mean power of the sEMG and characterizes the activity of the muscles</li>
         <li>Slope sign change (SSC): number of times the slope sign changes within the current window and characterizes the frequency information of the sEMG signal</li>
         <li>Waveform length (WL): total wavelength of the sEMG signal and characterizes signal complexity</li>
