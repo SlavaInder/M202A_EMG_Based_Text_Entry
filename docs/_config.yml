@@ -16,7 +16,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: rss
-    github:  SlavaInder/M202A
+    github:  SlavaInder
     rss: rss
 
 header_pages:
