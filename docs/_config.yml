@@ -15,8 +15,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: rss
+    github:  SlavaInder/M202A
     rss: rss
 
 header_pages:
