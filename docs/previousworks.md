@@ -20,7 +20,7 @@ permalink: /previousworks/
       <br>The video below demonstrates an example of a previous design for EMG-based typing:
       <center><iframe width="560" height="315" src="https://www.youtube.com/embed/w5zwfulRW9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
       <br>The image below demonstrates an EMG-based cursor:<br>
-      <center><img class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://miro.medium.com/max/800/0*zlXqfPArv3Ok2c0n.gif" style="max-width:50%; max-heigth:50%"></center><br>
+      <center><img class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://miro.medium.com/max/800/0*zlXqfPArv3Ok2c0n.gif" style="width:500px;height:auto"></center><br>
       By creating a design revolved around user experience, our application translates natural typing motion into input with a single Myo Armband. This application can then be further improved upon to create a fully functional interface with personal devices and IoT without the restrictions of a mouse or keyboard.</p>
     <h3>Main Research Papers</h3>
     <h4><i>Multiday EMG Classification of Hand Motions with Deep Learning Techniques</i></h4>
