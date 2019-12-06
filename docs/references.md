@@ -22,7 +22,7 @@ permalink: /references/
         <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6111443/</li>
       <li>"Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning" by Ulysse Cotˆ e-Allard, et. al.
         <br>https://arxiv.org/pdf/1801.07756.pdf</li>
-      <li>Comparison of six electromyography acquisition setups on hand movement classification tasks by Stefano Pizzolato, et. al.
+      <li>"Comparison of six electromyography acquisition setups on hand movement classification tasks" by Stefano Pizzolato, et. al.
         <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5638457/</li>
     </ol></p>
     <p>
