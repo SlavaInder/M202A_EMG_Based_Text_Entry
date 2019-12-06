@@ -46,10 +46,10 @@ permalink: /methods/
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
         <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul>
       <br>
-      <figure>
+      <center><figure>
         <img src="https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=631408&s=89&r=1&c=1" style = "max-width:70%">
         <center><figcaption>Myo Armband Sensors</figcaption></center>
-      </figure>
+        </figure></center>
   </p>
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of single-finger gestures, we will be focusing on the classification of single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, index finger extension, middle finger extension, and ring finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
@@ -73,10 +73,10 @@ permalink: /methods/
     </figure>
     <h3>Data Collection</h3>
     <p>The Myo Armband was placed approximately 3 inches from the elbow with the LED display facing towards the inner left arm on right-handed subjects. The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.
-    <figure>
+    <center><figure>
       <img src="https://www.mdpi.com/sensors/sensors-19-02495/article_deploy/html/images/sensors-19-02495-g003.png" style = "max-width:70%">
       <center><figcaption>Pipeline</figcaption></center>
-    </figure>
+      </figure></center>
     </p>
     <h3>Datasets</h3>
     <p>The complete dataset for our project can be found on our GitHub repo or click <a href="">here</a> to download.<br>The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
