@@ -88,17 +88,25 @@ permalink: /workbreakdown/
     
     <tr>
       <td>11/07/2019 - 11/17/2019</td>
-      <td>Make a prototype of recognition algorithm and its implementation</td>
+      <td>Make a prototype of recognition algorithm and its implementation. Gather more datasets</td>
     </tr>
     
     <tr>
       <td>11/18/2019 - 11/22/2019</td>
-      <td>Detailed presentation of progress and results </td>
+      <td>Pre-process and feature-extract current datasets. Create and train machine machine learning model. Begin Android Studios interface</td>
     </tr>
     
     <tr>
-      <td>11/23/2019 - 11/22/2019</td>
-      <td>Finalize the design; collect final set of data; fix arised issues. Measure percetage of right recognitions and latency.</td>
+      <td>11/25/2019 - 11/29/2019</td>
+      <td>Finalize the design; collect final set of data; fix arised issues. Measure percentage of right recognitions and latency.</td>
+    </tr>
+     <tr>
+      <td>12/2/2019 - 12/6/2019</td>
+      <td>Finalize datasets and ANN model. Complete application and update website</td>
+    </tr>
+     <tr>
+      <td>12/9/2019 - 12/13/2019</td>
+      <td>Upload all related files and complete documentation of project. Finalize website</td>
     </tr>
   </table>
     <h3>Methodology Overview</h3>
