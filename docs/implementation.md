@@ -85,7 +85,7 @@ When translating real-time gesture predictions into user input, weights were att
 
 </manifest>
 ```
-### Keyboard.java
+#### Keyboard.java
 The code below demonstrates the integration of the neural network model and the application. The incoming data from the Myo Armband goes through FeatureProcessor.get_features. The time-domain features of the sEMG signal stream is then predicted through our TensorFlowLite ANN model. The weights are applied and a decision on the incoming gesture is made. The prediction then outputs the corresponding character to the user interface.
 ``` java
 /* ====================================== EMG Handler ====================================== */
