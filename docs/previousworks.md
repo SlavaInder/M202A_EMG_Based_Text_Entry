@@ -33,48 +33,48 @@ permalink: /previousworks/
     <p>
     <h4><i>EMG Based Decoding of Object Motion in Dexterous, In-Hand Manipulation Tasks (2018)</i></h4>
     <ul>
-      <li>Hardware: Standard Bipolar Electrodes</li>
-      <li>Number of Subjects: 2 male</li>
-      <li>Gesture Set: Roll, Pitch, Yaw, Twirl</li>
-      <li>Time Domain Features: RMS, WL, ZC</li>
-      <li>Time Window Length: 200 ms</li>
-      <li>NN Architecture: Random forests regression</li>
+      <li><u>Hardware</u>: Standard Bipolar Electrodes</li>
+      <li><u>Number of Subjects</u>: 2 male</li>
+      <li><u>Gesture Set</u>: Roll, Pitch, Yaw, Twirl</li>
+      <li><u>Time Domain Features</u>: RMS, WL, ZC</li>
+      <li><u>Time Window Length</u>: 200 ms</li>
+      <li><u>NN Architecture</u>: Random forests regression</li>
     </ul>
     <h4><i>Machine Learning Algorithms for Characterization of EMG Signals (2014)</i></h4>
     <ul>
-      <li>Hardware: Standard Bipolar Electrodes</li>
-      <li>Number of Subjects: 1</li>
-      <li>Gesture Set: Wrist flexors and wrist extensors</li>
-      <li>Time Domain Features: WPT, WT, AR-X, FFT, etc.</li>
-      <li>NN Architecture: NNC, LDA, KNN, etc.</li>
+      <li><u>Hardware</u>: Standard Bipolar Electrodes</li>
+      <li><u>Number of Subjects</u>: 1</li>
+      <li><u>Gesture Set</u>: Wrist flexors and wrist extensors</li>
+      <li><u>Time Domain Features</u>: WPT, WT, AR-X, FFT, etc.</li>
+      <li><u>NN Architecture</u>: NNC, LDA, KNN, etc.</li>
     </ul>
     <h4><i>Simultaneous sEMG Classification of Hand/Wrist Gestures and Forces (2019)</i></h4>
     <ul>
-      <li>Hardware: CyberGlove and Standard Bipolar Electrodes</li>
-      <li>Number of Subjects: 31 participants</li>
-      <li>Gesture Set: 7 whole-hand gestures (including pointing index finer)</li>
-      <li>Time Domain Features: MAV, RMS, WL, SSC, Variance</li>
-      <li>Time Window Length: 150 ms w/ 100 ms overlap</li>
-      <li>NN Architecture: LDA and Non-Linear Logistic Regression (NLR)</li>
-      <li>Side: Smallest margin of error (~10%) when differentiating a set of wrist gestures and a pinch at different levels of intensity with NLR</li>
+      <li><u>Hardware</u>: CyberGlove and Standard Bipolar Electrodes</li>
+      <li><u>Number of Subjects</u>: 31 participants</li>
+      <li><u>Gesture Set</u>: 7 whole-hand gestures (including pointing index finer)</li>
+      <li><u>Time Domain Features</u>: MAV, RMS, WL, SSC, Variance</li>
+      <li><u>Time Window Length</u>: 150 ms w/ 100 ms overlap</li>
+      <li><u>NN Architecture</u>: LDA and Non-Linear Logistic Regression (NLR)</li>
+      <li><u>Side</u>: Smallest margin of error (~10%) when differentiating a set of wrist gestures and a pinch at different levels of intensity with NLR</li>
     </ul>
     <h4><i>Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning (2019)</i></h4>
     <ul>
-      <li>Hardware: Myo Armband</li>
-      <li>Number of Subjects: 19 participants for first dataset, 17 participants for second dataset</li>
-      <li>Gesture Set: Wrist Flexions and Hand Opened/Closed</li>
-      <li>Time Domain Features: MAV, SSC, WL, ZC</li>
-      <li>Time Window Length: 260 ms</li>
-      <li>NN Architecture: CNN</li>
+      <li><u>Hardware</u>: Myo Armband</li>
+      <li><u>Number of Subjects</u>: 19 participants for first dataset, 17 participants for second dataset</li>
+      <li><u>Gesture Set</u>: Wrist Flexions and Hand Opened/Closed</li>
+      <li><u>Time Domain Features</u>: MAV, SSC, WL, ZC</li>
+      <li><u>Time Window Length</u>: 260 ms</li>
+      <li><u>NN Architecture</u>: CNN</li>
     </ul>
     <h4><i>Inferring Static Hand Poses from a Low-Cost Non-Intrusive sEMG Sensor (2019)</i></h4>
     <ul>
-      <li>Hardware: Myo Armband</li>
-      <li>Number of Subjects: 35 participants</li>
-      <li>Gesture Set: Wrist Flexion, Opened/Closed Hand, Victory Sign, and Two-finger Tap</li>
-      <li>Time Domain Features: None (Raw input)</li>
-      <li>Time Window Length: 188 ms w/ 20 ms offset</li>
-      <li>NN Architecture: GRU</li>
+      <li><u>Hardware</u>: Myo Armband</li>
+      <li><u>Number of Subjects</u>: 35 participants</li>
+      <li><u>Gesture Set</u>: Wrist Flexion, Opened/Closed Hand, Victory Sign, and Two-finger Tap</li>
+      <li><u>Time Domain Features</u>: None (Raw input)</li>
+      <li><u>Time Window Length</u>: 188 ms w/ 20 ms offset</li>
+      <li><u>NN Architecture</u>: GRU</li>
     </ul>
     </p>
   </body>
