@@ -33,7 +33,7 @@ permalink: /implementation/
   Epoch 10/10
   23048/23048 [==============================] - 1s 33us/sample - loss: 0.2198 - accuracy: 0.9167 - val_loss: 0.2511 - val_accuracy: 0.8998
   ```
- The confusion matrix
+ The confusion matrix for our model also yielded strong results:
   ```
   [[1142    6   94    5   10    0    3    3]
   [   0  170    0    3    0   12    2    5]
