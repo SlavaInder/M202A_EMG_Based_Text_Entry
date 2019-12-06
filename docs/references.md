@@ -26,6 +26,10 @@ permalink: /references/
         <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5638457/</li>
       <li>NinaPro Project Database by Stefano Pizzolato, et. al.
         <br>http://ninaweb.hevs.ch/</li>
+      <li>MyoText by Doug A. Bowman, et. al.
+        <br>https://research.cs.vt.edu/3di/node/231</li>
+      <li>15 Things You Can Do With Myo by Thalmic Labs
+        <br>https://medium.com/thalmic/15-things-you-can-do-with-myo-f3f05bcc6f9c</li>
     </ol></p>
     <p>
       <h3>Image Sources</h3>
@@ -34,7 +38,7 @@ permalink: /references/
         <li>Keyboard Gestures:<br>https://www.typing.academy/app/source/public/images/intro/en/basic-position.png</li>
         <li>Finger Tap:<br>https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg</li>
         <li>Finger Extension:<br>https://www.online-tech-tips.com/wp-content/uploads/2018/10/touch-typing-tips.jpg.optimal.jpg</li>
-        <li></li>
+        <li>Gesture Set:<br>https://miro.medium.com/max/2604/1*9uvS5j1EZXdQuIoqyb5syA.jpeg</li>
       </ol></p>
   </body>
 </html>
