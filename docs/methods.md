@@ -40,11 +40,13 @@ permalink: /methods/
   </style>
   <body>
     <h3>Materials</h3>
-    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128.<br>Software platforms include: 
+    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The accelerometer and the gyroscope features of the Myo Armband were not needed for the purposes of collecting information on single-finger gestures. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128.<br>Software platforms include: 
       <ul>
         <li>Python: signal cleaning, window sampling, and feature extracting</li>
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
-        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul></p>
+        <li>Android Studios: creating an application for translating sEMG signal data extraction into user interface.</li>           </ul>
+      <br><img src = "https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=631408&s=89&r=1&c=1" style = "max-width:70%">
+  </p>
     <h3>Gesture Set</h3>
     <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of single-finger gestures, we will be focusing on the classification of single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, index finger extension, middle finger extension, and ring finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
     <div class = "row">
