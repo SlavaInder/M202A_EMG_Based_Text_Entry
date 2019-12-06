@@ -178,7 +178,7 @@ permalink: /methods/
     </tr>
     </table></center>
   <h3>Feature Extraction</h3>
-  <p>The cleaned and classified datasets are now ready for feature extraction. The feature extraction is done with a sliding window moving per 10 ms along the dataset. The code samples below come from the m_converter class.</p></html>
+  <p>The cleaned and classified datasets are now ready for feature extraction. The feature extraction is done with a sliding window of length 200 ms and an offset of 10 ms. The code samples below come from the m_converter class.</p></html>
   ```python
   # Extracts the features from the timestamped dataset from m_class_editor
   # This class allows to produce file output.csv file containing 7 features
