@@ -84,7 +84,7 @@ permalink: /previousworks/
       <li><u>Time Domain Features</u>:    RMS, ZC, ARC, FFT, PSD, WT</li>
       <li><u>Time Window Length</u>:      128 ms</li>
       <li><u>NN Architecture</u>:         CNN based on VGG architecture</li>
-      <li><u>Side</u>:                    The accelerometer and the gyroscope of the Myo Armband were utilized in order to track the motion of the arm (some SL gestures require movements of all the arm</li>
+      <li><u>Side</u>:                    The accelerometer and the gyroscope of the Myo Armband were utilized in order to track the motion of the arm (some SL gestures require both arms and wide movements)</li>
     </ul>
     </p>
   </body>
