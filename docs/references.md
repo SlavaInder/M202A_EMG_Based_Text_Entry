@@ -30,6 +30,8 @@ permalink: /references/
         <br>https://research.cs.vt.edu/3di/node/231</li>
       <li>15 Things You Can Do With Myo by Thalmic Labs
         <br>https://medium.com/thalmic/15-things-you-can-do-with-myo-f3f05bcc6f9c</li>
+      <li>"An Recognition–Verification Mechanism for Real-Time Chinese Sign Language Recognition Based on Multi-Information Fusion" by Fei Wang, et. al.
+        <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6603597/</li>
     </ol></p>
     <p>
       <h3>Image Sources</h3>
@@ -39,6 +41,8 @@ permalink: /references/
         <li>Finger Tap:<br>https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg</li>
         <li>Finger Extension:<br>https://www.online-tech-tips.com/wp-content/uploads/2018/10/touch-typing-tips.jpg.optimal.jpg</li>
         <li>Gesture Set:<br>https://miro.medium.com/max/2604/1*9uvS5j1EZXdQuIoqyb5syA.jpeg</li>
+        <li>Myo Armband Sensors:<br>https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=631408&s=89&r=1&c=1</li>
+        <li>Model Pipeline:<br>https://www.mdpi.com/sensors/sensors-19-02495/article_deploy/html/images/sensors-19-02495-g003.png</li>
       </ol></p>
   </body>
 </html>
