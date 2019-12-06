@@ -50,3 +50,5 @@ The application for our interface was created through Android Studios.
 ``` java
 public static void main(String args[])
 ```
+
+*** LIST OUT ALL OF THE JAVA CLASSES/ACTIVITES AND DESCRIBE
