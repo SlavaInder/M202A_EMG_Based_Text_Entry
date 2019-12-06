@@ -24,6 +24,8 @@ permalink: /references/
         <br>https://arxiv.org/pdf/1801.07756.pdf</li>
       <li>"Comparison of six electromyography acquisition setups on hand movement classification tasks" by Stefano Pizzolato, et. al.
         <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5638457/</li>
+      <li>NinaPro Project Database by Stefano Pizzolato, et. al.
+        <br>http://ninaweb.hevs.ch/</li>
     </ol></p>
     <p>
       <h3>Image Sources</h3>
