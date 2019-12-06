@@ -52,11 +52,11 @@ permalink: /previousworks/
     <ul>
       <li><u>Hardware</u>:                CyberGlove and Standard Bipolar Electrodes</li>
       <li><u>Number of Subjects</u>:      31 participants</li>
-      <li><u>Gesture Set</u>:             7 whole-hand gestures (including pointing index finer)</li>
+      <li><u>Gesture Set</u>:             7 whole-hand gestures (including pointing index finger and pinch)</li>
       <li><u>Time Domain Features</u>:    MAV, RMS, WL, SSC, Variance</li>
       <li><u>Time Window Length</u>:      150 ms w/ 100 ms overlap</li>
       <li><u>NN Architecture</u>:         LDA and Non-Linear Logistic Regression (NLR)</li>
-      <li><u>Side</u>: Smallest margin of error (~10%) when differentiating a set of wrist gestures and a pinch at different levels of intensity with NLR</li>
+      <li><u>Side</u>:                    Smallest margin of error (~10%) when differentiating a set of wrist gestures and a pinch at different levels of intensity with NLR</li>
     </ul>
     <h4><i>Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning (2019)</i></h4>
     <ul>
@@ -75,6 +75,16 @@ permalink: /previousworks/
       <li><u>Time Domain Features</u>:    None (Raw input)</li>
       <li><u>Time Window Length</u>:      188 ms w/ 20 ms offset</li>
       <li><u>NN Architecture</u>:         GRU</li>
+    </ul>
+    <h4><i>An Recognition–Verification Mechanism for Real-Time Chinese Sign Language Recognition Based on Multi-Information Fusion (2019)</i></h4>
+    <ul>
+      <li><u>Hardware</u>:                Myo Armband</li>
+      <li><u>Number of Subjects</u>:      20 participants</li>
+      <li><u>Gesture Set</u>:             Sign Language (consisting of both hand and arm motions)</li>
+      <li><u>Time Domain Features</u>:    RMS, ZC, ARC, FFT, PSD, WT</li>
+      <li><u>Time Window Length</u>:      128 ms</li>
+      <li><u>NN Architecture</u>:         CNN based on VGG architecture</li>
+      <li><u>Side</u>:                    The accelerometer and the gyroscope of the Myo Armband were utilized in order to track the motion of the arm (some SL gestures require movements of all the arm</li>
     </ul>
     </p>
   </body>
