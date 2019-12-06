@@ -47,6 +47,6 @@ permalink: /implementation/
 ### Application 
 The application for our interface was created through Android Studios.
 
-''' java
+``` java
 public static void main(String args[])
 ```
