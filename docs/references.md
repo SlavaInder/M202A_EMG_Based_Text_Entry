@@ -32,6 +32,13 @@ permalink: /references/
         <br>https://medium.com/thalmic/15-things-you-can-do-with-myo-f3f05bcc6f9c</li>
       <li>"An Recognition–Verification Mechanism for Real-Time Chinese Sign Language Recognition Based on Multi-Information Fusion" by Fei Wang, et. al.
         <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6603597/</li>
+      <li>NinaPro Databse 5 Gesture Set by Stefano Pizzolato, et. al.
+        <br>https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=6515175_sensors-19-01952-g0A1.jpg</li>
+      <li>"sEMG-Based Hand-Gesture Classification Using a Generative Flow Model" by Wentao Sun, et. al.<br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6515175/</li>
+      <li>"Simple Space-Domain Features for Low-Resolution sEMG Pattern Recognition" by Ian M. Donovan, et. al.
+        <br>https://bidal.sfsu.edu/~kazokada/research/okada_embc17_myoFeature.pdf</li>
+      <li>"A Low-Cost, Wireless, 3-D-Printed Custom Armband for sEMG Hand Gesture Recognition" by Ulysse Côté-Allard
+        <br>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6631507/</li>
     </ol></p>
     <p>
       <h3>Image Sources</h3>
