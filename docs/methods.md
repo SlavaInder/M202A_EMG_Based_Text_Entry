@@ -71,6 +71,14 @@ permalink: /methods/
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
+    <figure>
+    <img id = "center" class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://media.giphy.com/media/LOL3xcnZxHLyy6vwJA/giphy.gif" style="width:500px;height:auto">
+  <center><figcaption>Finger Extension</figcaption></center>
+    </figure>
+    <figure>
+    <img id = "center" class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://media.giphy.com/media/XI1G2dD3Ea6jLFLNSO/giphy.gif" style="width:500px;height:auto">
+  <center><figcaption>Finger Tap</figcaption></center>
+    </figure>
     <h3>Data Collection</h3>
     <p>The Myo Armband was placed approximately 3 inches from the elbow with the LED display facing towards the inner left arm on right-handed subjects. The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.
     <center><figure>
