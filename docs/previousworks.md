@@ -17,6 +17,10 @@ permalink: /previousworks/
           <center><figcaption>An example gesture set of a Myo Armband-based paper</figcaption></center>
       </figure></center>
       The overlying theme across all these gesture sets is the requirement of every finger to stimulate muscle activity. Whether a finger is voluntarily curled, straightened, or flexed, it produces a noticeable change within the sEMG signal. Therefore, these gestures can be considered dissimilar and more easily differentiable. Additionally, the NinaPro EMG Database (DB5) is considered the benchmark for Myo Armband sEMG signal analysis/collection. It was captured through 2 Myo Armbands and a CyberGlove. Despite this standard, the database did not contain the gesture set we aim to differentiate. While it contained finger adductions, flexions, and extensions, it did not contain finger taps nor subtle finger extensions.<br>
+        <center><figure>
+          <img class = "size" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/78897174_2502457970041635_8298641929936044032_n.png?_nc_cat=105&_nc_ohc=VcKPuBineZ4AQlTJ9m0MeFfQLj928v7Jx_MBHOtQrMEOLhernxKm0vzUQ&_nc_ht=scontent-lax3-1.xx&oh=a28408005391d30f0242fa1c4dd8e592&oe=5E7896DA" style="max-width:50%;">
+          <center><figcaption>Sample of NinaPro DB5 Gesture Set</figcaption></center>
+      </figure></center>
 To the best of our knowledge, our gesture set was not covered in any relevant literatures on the Myo Armband. These gestures are much more difficult to identify due to the lack of overall signal strength and activity. We want to emulate typing movements; therefore, our gesture set was defined by the standard motions involved when typing on a QWERTY keyboard. Additionally, since there are no previous works involving the recognition of these gestures, the method of handling and sampling these single-finger gestures were all unique to our design.</p>
   </body>
 </html>
