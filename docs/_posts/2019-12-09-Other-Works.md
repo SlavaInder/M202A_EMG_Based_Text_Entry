@@ -69,4 +69,32 @@ author: "Michael Kim and Viacheslav Inderiakin"
       <li><u>NN Architecture</u>:         CNN based on VGG architecture</li>
       <li><u>Side</u>:                    The accelerometer and the gyroscope of the Myo Armband were utilized in order to track the motion of the arm (some SL gestures require both arms and wide movements)</li>
     </ul>
-    </p></body></html>
+    </p>
+  <h3>Methodology Overview</h3>
+  <p>Step 1: Reading through literatures on the topic
+    <br>Step 2: Understanding algorithm and differentiation patterns
+    <br>Step 3: Creating Application to connect to MyoBand
+    <br>Step 4: Research/Observations with MyoBand
+    <br>Step 5: Clean, classify, and extract features from dataset
+    <br>Step 5: Create prototype of product
+    <ul>
+      <li>Test and determine accuracy of the gesture differentiation; multiple trials of each gesture</li>
+      <li>Determine delay with EMG differentiation</li>
+      <li>If needed, test accuracy of other algorithmic models with samples to determine best interpretation</li>
+    </ul>
+    Step 6: Integrate with application
+    <ul>
+      <li>Determine delay with integration</li>
+      <li>Determine weights for each gesture</li>
+    </ul>
+    Step 7: Analysis of product
+    <ul>
+      <li>Success metrics:</li>
+      <ol>
+        <li>Less than 0.1 second delay</li>
+        <li>>85% accuracy</li>
+        <li>Typing and functions properly executed</li>
+        <li>Reasonable speed of input</li>
+      </ol>
+    </ul></p>
+  </body></html>
