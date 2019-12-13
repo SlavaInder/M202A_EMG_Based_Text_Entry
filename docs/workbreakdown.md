@@ -75,27 +75,22 @@ permalink: /workbreakdown/
       <td>10/20/2019 - 10/25/2019 </td>
       <td>Create a detailed timeline and work breakdown for the project within the upcoming weeks</td>
     </tr>
-  
     <tr>
       <td>10/26/2019 - 10/30/2019</td>
       <td>Dive into the literature to understand more about the required code and algorithm</td>
-    </tr>
-    
+     </tr>
     <tr>
       <td>10/31/2019 - 11/06/2019</td>
       <td>Set up and test available equipment. Gather initial set of data</td>
     </tr>
-    
     <tr>
       <td>11/07/2019 - 11/17/2019</td>
       <td>Make a prototype of recognition algorithm and its implementation. Gather more datasets</td>
-    </tr>
-    
+     </tr>
     <tr>
       <td>11/18/2019 - 11/22/2019</td>
       <td>Pre-process and feature-extract current datasets. Create and train machine machine learning model. Begin Android Studios interface</td>
     </tr>
-    
     <tr>
       <td>11/25/2019 - 11/29/2019</td>
       <td>Finalize the design; collect final set of data; fix arised issues. Measure percentage of right recognitions and latency.</td>
@@ -109,31 +104,4 @@ permalink: /workbreakdown/
       <td>Upload all related files and complete documentation of project. Finalize website</td>
     </tr>
   </table>
-    <h3>Methodology Overview</h3>
-  <p>Step 1: Reading through literatures on the topic
-    <br>Step 2: Understanding algorithm and differentiation patterns
-    <br>Step 3: Creating Application to connect to MyoBand
-    <br>Step 4: Research/Observations with MyoBand
-    <br>Step 5: Clean, classify, and extract features from dataset
-    <br>Step 5: Create prototype of product
-    <ul>
-      <li>Test and determine accuracy of the gesture differentiation; multiple trials of each gesture</li>
-      <li>Determine delay with EMG differentiation</li>
-      <li>If needed, test accuracy of other algorithmic models with samples to determine best interpretation</li>
-    </ul>
-    Step 6: Integrate with application
-    <ul>
-      <li>Determine delay with integration</li>
-      <li>Determine weights for each gesture</li>
-    </ul>
-    Step 7: Analysis of product
-    <ul>
-      <li>Success metrics:</li>
-      <ol>
-        <li>Less than 0.1 second delay</li>
-        <li>>85% accuracy</li>
-        <li>Typing and functions properly executed</li>
-        <li>Reasonable speed of input</li>
-      </ol>
-    </ul></p>
   </body></html>
