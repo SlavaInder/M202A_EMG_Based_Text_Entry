@@ -39,6 +39,45 @@ permalink: /workbreakdown/
   }
   </style>
   <body>
+       <h3>Our Timeline</h3>
+  <table style="width:100%">
+    <tr>
+      <th>time period</th>
+      <th>task</th>
+    </tr>
+    <tr>
+      <td>10/20/2019 - 10/25/2019 </td>
+      <td>Create a detailed timeline and work breakdown for the project within the upcoming weeks</td>
+    </tr>
+    <tr>
+      <td>10/26/2019 - 10/30/2019</td>
+      <td>Dive into the literature to understand more about the required code and algorithm</td>
+     </tr>
+    <tr>
+      <td>10/31/2019 - 11/06/2019</td>
+      <td>Set up and test available equipment. Gather initial set of data</td>
+    </tr>
+    <tr>
+      <td>11/07/2019 - 11/17/2019</td>
+      <td>Make a prototype of our recognition algorithm and its implementation. Gather more datasets</td>
+     </tr>
+    <tr>
+      <td>11/18/2019 - 11/22/2019</td>
+      <td>Pre-process and feature-extract current datasets. Create and train machine machine learning model. Begin Android Studios interface</td>
+    </tr>
+    <tr>
+      <td>11/25/2019 - 11/29/2019</td>
+      <td>Finalize the design; collect final set of data; fix arised issues. Measure percentage of right recognitions and latency.</td>
+    </tr>
+     <tr>
+      <td>12/2/2019 - 12/6/2019</td>
+      <td>Finalize datasets and ANN model. Complete application and update website</td>
+    </tr>
+     <tr>
+      <td>12/9/2019 - 12/13/2019</td>
+      <td>Upload all related files and complete documentation of project. Finalize website</td>
+    </tr>
+  </table>
     <div class = "row">
       <div class = "column">
          <center><h3>Michael</h3></center>
@@ -65,43 +104,4 @@ permalink: /workbreakdown/
            </ul>
       </div>
     </div>
-     <h3>Our Timeline</h3>
-  <table style="width:100%">
-    <tr>
-      <th>time period</th>
-      <th>task</th>
-    </tr>
-    <tr>
-      <td>10/20/2019 - 10/25/2019 </td>
-      <td>Create a detailed timeline and work breakdown for the project within the upcoming weeks</td>
-    </tr>
-    <tr>
-      <td>10/26/2019 - 10/30/2019</td>
-      <td>Dive into the literature to understand more about the required code and algorithm</td>
-     </tr>
-    <tr>
-      <td>10/31/2019 - 11/06/2019</td>
-      <td>Set up and test available equipment. Gather initial set of data</td>
-    </tr>
-    <tr>
-      <td>11/07/2019 - 11/17/2019</td>
-      <td>Make a prototype of recognition algorithm and its implementation. Gather more datasets</td>
-     </tr>
-    <tr>
-      <td>11/18/2019 - 11/22/2019</td>
-      <td>Pre-process and feature-extract current datasets. Create and train machine machine learning model. Begin Android Studios interface</td>
-    </tr>
-    <tr>
-      <td>11/25/2019 - 11/29/2019</td>
-      <td>Finalize the design; collect final set of data; fix arised issues. Measure percentage of right recognitions and latency.</td>
-    </tr>
-     <tr>
-      <td>12/2/2019 - 12/6/2019</td>
-      <td>Finalize datasets and ANN model. Complete application and update website</td>
-    </tr>
-     <tr>
-      <td>12/9/2019 - 12/13/2019</td>
-      <td>Upload all related files and complete documentation of project. Finalize website</td>
-    </tr>
-  </table>
   </body></html>
