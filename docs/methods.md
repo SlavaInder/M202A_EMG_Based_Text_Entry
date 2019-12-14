@@ -73,7 +73,7 @@ permalink: /methods/
     <h3>Datasets</h3>
     <p>Over the course of our project, we collected and sorted the dataset of almost 80,000 samples. This dataset can and downloaded from our Github repo at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts - one is the data we used to train Neural Network for final version of our implementation, and the other is data we experimented with but did not include in final version. This "discarded" data was found to be either too noisy or from the gestures we did not included in final version. Final dataset consists of 6 gestures plus neutral position. All data is saved as *.txt files and separated in groups: raw data, cleaned data, classified data, features. </p>
     <h3>Features</h3>
-    <p>There will be 6 total features extracted from each window of each channel. Therefore, there will be 48 total features being extracted from each dataset via sliding window. The features include:
+    <p>To process data in real-time, we use sliding window approach - that is we divide all our data in segments of fixed size. A set of segments is combined into a window, and 6 time domain features are extracted from the window (so, overall there is 48 features for 8 channels). Then first segment is popped out of the window and new one is added in the and. Features are extracted again and this process runs in a loop until last window is processed. The features that we use include:
       <ul>
         <li>Mean average value (MAV): average of the absolute values of the sEMG amplitudes and characterizes muscle contraction level</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MAV.png"></center>
@@ -88,7 +88,7 @@ permalink: /methods/
         <li>Mobility Hjorth parameter (MHP): average frequency of the signal</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MHP.png"></center>
       </ul></p>
-    <h3>Cleaning</h3>
+    <h3>Code for data processing</h3>
       <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
   </body></html>
   ```python
