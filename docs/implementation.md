@@ -7,6 +7,8 @@ permalink: /implementation/
 <html>
   <body>
     <p>In order to demonstrate the functionality of our gesture-recognition algorithm, we created an interactive application within Android Studios. The goal of the application would be to cover all the bases for typical human-computer interaction such as typing and cursor control.</p>
+    <h1>Demonstration</h1>
+      <center><iframe width="500" height="350" src="https://www.youtube.com/embed/cRu21NTDe1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
     <h3>Results</h3>
     <p>After training our artificial neural network, our evaluation of the model yielded strong results. The model was able to evaluate the 8 gestures at around a 90% mark. The accuracy reports can be seen below.</p>
   </body></html>
