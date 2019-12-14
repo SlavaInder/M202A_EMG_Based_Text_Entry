@@ -70,11 +70,8 @@ permalink: /methods/
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
-    </p>
     <h3>Datasets</h3>
-    <p>Over the course of our project, we collected and sorted the dataset of almost 80,000 samples. This dataset can and downloaded from our Github repo at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts - one is the data we used to train Neural Network for final version of our implementation, and the other is data we experimented with but did not include in final version. This "discarded" data was found to be either too noisy or from the gestures we did not included in final version. 
-  
-  The complete dataset for our project can be found on our GitHub repo or click  to download.<br>The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
+    <p>Over the course of our project, we collected and sorted the dataset of almost 80,000 samples. This dataset can and downloaded from our Github repo at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts - one is the data we used to train Neural Network for final version of our implementation, and the other is data we experimented with but did not include in final version. This "discarded" data was found to be either too noisy or from the gestures we did not included in final version. Final dataset consists of 6 gestures plus neutral position. All data is saved as *.txt files and separated in groups: raw data, cleaned data, classified data, features. </p>
     <h3>Features</h3>
     <p>There will be 6 total features extracted from each window of each channel. Therefore, there will be 48 total features being extracted from each dataset via sliding window. The features include:
       <ul>
