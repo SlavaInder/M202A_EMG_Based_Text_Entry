@@ -23,10 +23,10 @@ header_pages:
  - index.md
  - about.md
  - previousworks.md
- - methods.md
- - workbreakdown.md 
+ - methods.md 
  - implementation.md
  - futuredirection.md
+ - workbreakdown.md
  - references.md
 
 # Build settings
