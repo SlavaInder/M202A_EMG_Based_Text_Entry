@@ -40,9 +40,11 @@ permalink: /methods/
   </style>
   <body>
     <h3>Hardware</h3>
-    <p>To collect sEmg sygnal, we used Myo Armband from Thalmic labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). Myoarmband provide 8 channels for sEMG recording with 8-bit resolution and filtering implemented internally. 
+    <p>To collect sEmg sygnal, we used Myo Armband from Thalmic labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). Myoarmband provide 8 channels for sEMG recording with 8-bit resolution and filtering implemented internally. It communicates with other devices by using Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 emg recordings each. This characteristics are updated oncew per second.</p>
+   <p>For interfacing with Myo and perform real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x </p>
+   
       
-       The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The accelerometer and the gyroscope features of the Myo Armband were not needed for the purposes of collecting information on single-finger gestures. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128.<br>Software platforms include: 
+       <br>Software platforms include: 
       <ul>
         <li>Python: signal cleaning, window sampling, and feature extracting</li>
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
