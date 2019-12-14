@@ -48,7 +48,7 @@ permalink: /references/
         <li>Finger Tap:<br>https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg</li>
         <li>Finger Extension:<br>https://www.online-tech-tips.com/wp-content/uploads/2018/10/touch-typing-tips.jpg.optimal.jpg</li>
         <li>Gesture Set:<br>https://miro.medium.com/max/2604/1*9uvS5j1EZXdQuIoqyb5syA.jpeg</li>
-        <li>Myo Armband Sensors:<br>https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=631408&s=89&r=1&c=1</li>
+        <li>Myo Armband:<br>https://www.researchgate.net/profile/Eduardo_Castello/publication/316538856/figure/fig9/AS:487955379822600@1493349036712/Myo-armband-by-Thalmic-Labs.png</li>
         <li>Model Pipeline:<br>https://www.mdpi.com/sensors/sensors-19-02495/article_deploy/html/images/sensors-19-02495-g003.png</li>
       </ol></p>
   </body>
