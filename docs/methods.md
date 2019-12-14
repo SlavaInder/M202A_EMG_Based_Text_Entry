@@ -89,44 +89,25 @@ permalink: /methods/
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MHP.png"></center>
       </ul></p>
     <h3>Code for data processing</h3>
-      <p>In order to  create a more reliable dataset, each dataset was plotted, then manually combed and processed. The code samples below come from the emg_cleaner class to create a stronger dataset.</p>
+      <p>Here we provide interface for classes that we created to process data.</p>
   </body></html>
   ```python
+  # class allowing to delete or replace with reference noise parts of the signal 
   class emg_cleaner:
-    noise = []
- 
-  def delete_points_from_start(self, points):
-    for i in range(points):
-        for j in range(len(self.emg_channels)):
-            self.emg_channels[j].pop(0)                
-    self.timeline = [i for i in range(len(self.timeline) - points)]
-  
-  def delete_points_from_end(self, points):
-    for i in range(points):
-        for j in range(len(self.emg_channels)):
-            self.emg_channels[j].pop()
-    self.timeline = [i for i in range(len(self.timeline) - points)]
-    
-  def add_points_to_start(self, points):
-    random_start = randint(0, len(emg_cleaner.noise[0]) - 1 - points)
-    for i in range(points):
-        for j in range(len(self.emg_channels)):
-            self.emg_channels[j].insert(i, emg_cleaner.noise[j][random_start+i])
-    self.timeline = [i for i in range(len(self.timeline) + points)]
-
+  # deletes "points" of points from the start 
+  def delete_points_from_start(self, points)
+  # deletes "points" of points from the end
+  def delete_points_from_end(self, points)
+  # adds "points" of points before the start; these points are copied from reference signal
+  def add_points_to_start(self, points)
+  # replaces points from point "start" to point "end" by reference signal
   def replace_points_in_middle(self, start, end):
-    random_start = randint(0, len(emg_cleaner.noise[0]) - 2 - end + start)
-    for i in range(start, end + 1):
-        for j in range(len(self.emg_channels)):
-
-            self.emg_channels[j][i] = emg_cleaner.noise[j][random_start+i]
-            
-  def add_points_to_end(self, points):
-    random_start = randint(0, len(emg_cleaner.noise[0]) - 1 - points)
-    for i in range(points):
-        for j in range(len(self.emg_channels)):
-            self.emg_channels[j].append(emg_cleaner.noise[j][random_start+i])
-    self.timeline = [i for i in range(len(self.timeline) + points)]
+  # adds "points" of points after the end; these points are copied from reference signal
+  def add_points_to_end(self, points)
+  # plots all 8 channels of the signal from x_segment[0] to x_segment[1] with resolution y_scale
+  def mk_plots(self, x_segment, y_scale)
+  # saves obtained file at "address"
+  def save(self, address)
   ```
   <html><body>
   <h3>Classification</h3>
