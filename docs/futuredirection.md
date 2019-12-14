@@ -8,7 +8,7 @@ permalink: /futuredirection/
 In conclusion, we were able to develop an application that sets a basis for human-computer interaction utilizing the Myo Armband. Our design was able to translate 7 gestures into 9 outputs given the 'shift' functionality. Overall, typing with our interface was properly implemented with the inclusion of a 600 ms latency associated with our threshold operations.
 ### Strengths
 #### 1) Demonstration of translating natural typing motions into an interface with sEMG
-* Our design captures subtle finger movements via sEMG signal analysis. We were able to recognize these movements at a real-time rate with our algorithms and convert them into a set of input characters. While also providing a new platform for human-computer interaction with personal devices, the new interface can also be utilized to interact with IoT. Therefore, comfortable movements associated with keyboard input can be translated into a similar input platform performed both wirelessly and away from the keyboard.* 
+*Our design captures subtle finger movements via sEMG signal analysis. We were able to recognize these movements at a real-time rate with our algorithms and convert them into a set of input characters. While also providing a new platform for human-computer interaction with personal devices, the new interface can also be utilized to interact with IoT. Therefore, comfortable movements associated with keyboard input can be translated into a similar input platform performed both wirelessly and away from the keyboard.* 
 
 
 #### 2) Mobility
