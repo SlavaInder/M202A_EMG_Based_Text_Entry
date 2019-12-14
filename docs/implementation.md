@@ -11,12 +11,12 @@ permalink: /implementation/
     <h2>Performance evaluation</h2>    
     <p>Originally, our gesture set consisted of 9 gestures plus the neutral gesture. Although, the confusion matrix for this gesture set is up to our standards for integration, there were issues in regards to converting this accuracy into a real-time performance.<br> 
        <figure>
-          <img id = "center" width="800" height="481" src="https://lh5.googleusercontent.com/Cn9PHvngl_Lu8kcibi3kCmw7eWgdb-qgsr2dqK4lcW4CyqGLhXD4zRyMw2gvuQvb6Ijui7arXoQZOWZCqygA_mnKX4PI0Eho9FwkB8JGpkNKGclFBvoxWLJGGNtYVmEhZ6dxcZiyhUc" style="width:250px;height:auto">
+          <center><img id = "center" width="800" height="481" src="https://lh5.googleusercontent.com/Cn9PHvngl_Lu8kcibi3kCmw7eWgdb-qgsr2dqK4lcW4CyqGLhXD4zRyMw2gvuQvb6Ijui7arXoQZOWZCqygA_mnKX4PI0Eho9FwkB8JGpkNKGclFBvoxWLJGGNtYVmEhZ6dxcZiyhUc" style="width:550px;height:auto"></center>
           <center><figcaption>Original Gesture Set</figcaption></center>
         </figure><br>
       We noticed that the real-time interpretation for these gestures resulted in intermediate states that we did not initially account for. These intermediate states were easily confused with other gestures within our set and led to errs in classification. For example, an index finger extension might also ellicit multiple other gesture classifications. Therefore, it was difficult to properly distinguish the desired output from the real-time outputs of the classifier. In turn, a second gesture set was created using 5 finger taps and 1 finger extension. Within the confusion matrix of our final gesture set, there exists a relatively low value on 'D'. Due to our implementation of thresholds, this output did not pose a large threat to the stability of our model.<br>
       <figure>
-          <img id = "center" width="800" height="481" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/78785143_589167731857011_8276901187735781376_n.png?_nc_cat=105&_nc_ohc=HiyZDPvNN-gAQnKWT74IHK2T4ldSpnW186Xf8-n06bTB_q5I7FBIli07w&_nc_ht=scontent-lax3-1.xx&oh=3437efd26fd264f97e5b4b19dbb017a5&oe=5E829C70" style="width:250px;height:auto">
+          <center><img id = "center" width="800" height="481" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/78785143_589167731857011_8276901187735781376_n.png?_nc_cat=105&_nc_ohc=HiyZDPvNN-gAQnKWT74IHK2T4ldSpnW186Xf8-n06bTB_q5I7FBIli07w&_nc_ht=scontent-lax3-1.xx&oh=3437efd26fd264f97e5b4b19dbb017a5&oe=5E829C70" style="width:550px;height:auto"></center>
           <center><figcaption>Finalized Gesture Set</figcaption></center>
         </figure><br>
     </p>
