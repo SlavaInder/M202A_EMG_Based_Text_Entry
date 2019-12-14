@@ -70,15 +70,15 @@ permalink: /methods/
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
-    <h3>Data Collection</h3>
-    <p> The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.
     <center><figure>
       <img src="https://www.mdpi.com/sensors/sensors-19-02495/article_deploy/html/images/sensors-19-02495-g003.png" style = "max-width:70%">
       <center><figcaption>Pipeline</figcaption></center>
       </figure></center>
     </p>
     <h3>Datasets</h3>
-    <p>The complete dataset for our project can be found on our GitHub repo or click <a href="">here</a> to download.<br>The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
+    <p>Over the course of our project, we collected and sorted the dataset of almost 80,000 samples. This dataset can and downloaded from our Github repo at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts - one is the data we used to train Neural Network for final version of our implementation, and the other is data we experimented with but did not include in final version. This "discarded" data was found to be either too noisy or from the gestures we did not included in final version. 
+  
+  The complete dataset for our project can be found on our GitHub repo or click  to download.<br>The dataset contains the 6 total gestures with 30 total samples each. Additionally, we have added whole-hand gestures corresponding to a hand (palm down) moving left, right, up and down for our own purposes of testing our design functionality. The dataset contains both the raw, normalized EMG values from the Myo Armband and their corresponding time-domain features.</p>
     <h3>Features</h3>
     <p>There will be 6 total features extracted from each window of each channel. Therefore, there will be 48 total features being extracted from each dataset via sliding window. The features include:
       <ul>
