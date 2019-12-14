@@ -46,7 +46,7 @@ permalink: /methods/
    <h3>Software</h3>
    <p>For all offline processing (cleaning, classification, feature extraction), Python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and neural network training. Android Studios (Java) was used to implement the Android application. The TensorFlowLite package was used to provide support for a portable tflite classification format.
         <center><figure>
-        <img src="pictures/Myo-armband-by-Thalmic-Labs.png" style = "max-width:50%">
+        <img src="https://www.researchgate.net/profile/Eduardo_Castello/publication/316538856/figure/fig9/AS:487955379822600@1493349036712/Myo-armband-by-Thalmic-Labs.png" style = "max-width:50%">
         <center><figcaption>Myo Armband Sensor</figcaption></center>
         </figure></center>
   </p>
