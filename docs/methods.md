@@ -40,12 +40,12 @@ permalink: /methods/
   </style>
   <body>
     <h3>Hardware</h3>
-    <p>To collect sEmg sygnal, we used Myo Armband from Thalmic labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). Myoarmband provide 8 channels for sEMG recording with 8-bit resolution and filtering implemented internally. It communicates with other devices by using Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 emg recordings each. This characteristics are updated oncew per second.
+    <p>To collect sEmg sygnals, we used a Myo Armband from Thalmic Labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). The Myo Armband provides 8 channels for sEMG recording with an 8-bit resolution and filtering done internally. It communicates with other devices via Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 sEMG recordings each. These characteristics were updated once per second.
       <br/>
-      For interfacing with Myo and perform real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x</a>. The istalled version of Android OS was 7.1.2.</p>
+      For interfacing with Myo and performing real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x</a>. The istalled version of Android OS was 7.1.2.</p>
    <h3>Software</h3>
-   <p>For all offline processing (cleaning, classification, feature extraction), python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and NN training. Android studio (java) was used to implement Android application. Tflite package was used to provide support for portable tflite classification format.</p>   
-        <img src="https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=631408&s=89&r=1&c=1" style = "max-width:70%">
+   <p>For all offline processing (cleaning, classification, feature extraction), Python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and NN training. Android Studios (Java) was used to implement the Android application. The TensorFlowLite package was used to provide support for a portable tflite classification format.</p>   
+        <img src="/pictures/Myo-armband-by-Thalmic-Labs.png" style = "max-width:70%">
         <center><figcaption>Myo Armband Sensors</figcaption></center>
         </figure></center>
   </p>
@@ -54,13 +54,13 @@ permalink: /methods/
     <div class = "row">
       <div class = "column">
         <figure>
-          <img src="https://ak1.picdn.net/shutterstock/videos/13097291/thumb/3.jpg" style="width:100%">
+          <img id = "center" class="ll ng df t u hb ak hk" width="400" height="281" role="presentation" src="https://media.giphy.com/media/XI1G2dD3Ea6jLFLNSO/giphy.gif" style="width:500px;height:auto">
           <center><figcaption>Finger Tap</figcaption></center>
         </figure>
       </div>
       <div class = "column">
         <figure>
-          <img src="https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/fingerextension.jpg" style="width:100%">
+          <img id = "center" class="ll ng df t u hb ak hk" width="400" height="281" role="presentation" src="https://media.giphy.com/media/LOL3xcnZxHLyy6vwJA/giphy.gif" style="width:500px;height:auto">
           <center><figcaption>Finger Extension</figcaption></center>
         </figure>
       </div>
@@ -68,14 +68,6 @@ permalink: /methods/
     <figure>
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption>Default Hand at Rest</figcaption></center>
-    </figure>
-    <figure>
-    <img id = "center" class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://media.giphy.com/media/LOL3xcnZxHLyy6vwJA/giphy.gif" style="width:500px;height:auto">
-  <center><figcaption>Finger Extension</figcaption></center>
-    </figure>
-    <figure>
-    <img id = "center" class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://media.giphy.com/media/XI1G2dD3Ea6jLFLNSO/giphy.gif" style="width:500px;height:auto">
-  <center><figcaption>Finger Tap</figcaption></center>
     </figure>
     <h3>Data Collection</h3>
     <p>The Myo Armband was placed approximately 3 inches from the elbow with the LED display facing towards the inner left arm on right-handed subjects. The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.
