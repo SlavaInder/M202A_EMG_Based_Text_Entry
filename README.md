@@ -19,4 +19,5 @@ v.inderiakin.uk@gmail.com
 mhk150230@g.ucla.edu
 
 Note for instructor: history of commits for android application can be traced by using this link
+
 Our Application repo: https://github.com/SlavaInder/Myo_Keyboard/settings
