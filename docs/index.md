@@ -18,8 +18,8 @@ permalink: /
     <h1>Our Slides</h1>
       <center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT19j71m7GOTJ2oqKkVYxwYwume2e3W_jG7c7_ZualVBHTeQ2iMsOoX95tJQxujZNvSNYa4O-GoOg-J/embed?start=true&loop=false&delayms=60000" frameborder="0" width="640" height="379" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
     <h1>Demonstration</h1>
-      <center><iframe width="700" height="247" src="https://www.youtube.com/embed/cRu21NTDe1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <center><iframe width="500" height="350" src="https://www.youtube.com/embed/cRu21NTDe1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
     <h1>Presentation</h1>
-      <center><iframe width="700" height="247" src="https://www.youtube.com/embed/Y36CXKaGzXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <center><iframe width="500" height="350" src="https://www.youtube.com/embed/Y36CXKaGzXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
   </body>
 </html>
