@@ -54,13 +54,13 @@ permalink: /methods/
     <div class = "row">
       <div class = "column">
         <figure>
-          <img id = "center" class="ll ng df t u hb ak hk" width="400" height="281" role="presentation" src="https://media.giphy.com/media/XI1G2dD3Ea6jLFLNSO/giphy.gif" style="width:500px;height:auto">
+          <img id = "center" class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://media.giphy.com/media/XI1G2dD3Ea6jLFLNSO/giphy.gif" style="width:250px;height:auto">
           <center><figcaption>Finger Tap</figcaption></center>
         </figure>
       </div>
       <div class = "column">
         <figure>
-          <img id = "center" class="ll ng df t u hb ak hk" width="400" height="281" role="presentation" src="https://media.giphy.com/media/LOL3xcnZxHLyy6vwJA/giphy.gif" style="width:500px;height:auto">
+          <img id = "center" class="ll ng df t u hb ak hk" width="800" height="481" role="presentation" src="https://media.giphy.com/media/LOL3xcnZxHLyy6vwJA/giphy.gif" style="width:250px;height:auto">
           <center><figcaption>Finger Extension</figcaption></center>
         </figure>
       </div>
