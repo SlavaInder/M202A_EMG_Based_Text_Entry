@@ -51,7 +51,7 @@ permalink: /methods/
         </figure></center>
   </p>
     <h3>Gesture Set</h3>
-    <p>For the purposes of our design, we will have two groups of gestures: whole-hand gestures and single-finger gestures. Since the novelty of our design lies within the differentiation of single-finger gestures, we will be focusing on the classification of single-finger gestures on the left arm. These include an index finger tap, middle finger tap, ring finger tap, pinky finger tap, thumb tap, index finger extension, middle finger extension, and ring finger extension. A tap is determined by only vertical change of a finger. An extension is determined by both vertical and horizontal change of a finger.</p>
+    <p>Our design includes 2 types of gestures: finger taps (for letters A, S, D, F and whitespace, which are placed directly under the fingers when the hand is at rest) and finger extensions (for letters W, E, R and shift, which are pressed by stretching fingers). Amplitude of sEMG signal produced by these gestures in the forearm is low, and we ensured that the hand is positioned comfortably and rests throughout all of the experiment. Also, we ensured that during all of the experiments Myo Armband was placed at the same place (on the left hand, approximately 3 inches from the elbow with the LED display facing towards the inner right arm) </p>
     <div class = "row">
       <div class = "column">
         <figure>
@@ -71,7 +71,7 @@ permalink: /methods/
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
     <h3>Data Collection</h3>
-    <p>The Myo Armband was placed approximately 3 inches from the elbow with the LED display facing towards the inner left arm on right-handed subjects. The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.
+    <p> The non-dominant hand was utilized for ease of operation. The Armband was placed in the same location for each trial of both the whole-hand gestures and the single-finger gestures. In order to maximize uniformity, the single-finger gestures were performed on a marked surface describing the locations of the wrist and hand at rest and in motion. For data collection of the whole-hand gestures, the movements were made every 2.5 seconds with 2.5 seconds of rest for a total of 10 seconds. For data collection of the single-finger gestures, the user performed the single-finger gesture for the length of approximately 2 seconds.
     <center><figure>
       <img src="https://www.mdpi.com/sensors/sensors-19-02495/article_deploy/html/images/sensors-19-02495-g003.png" style = "max-width:70%">
       <center><figcaption>Pipeline</figcaption></center>
