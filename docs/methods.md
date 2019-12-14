@@ -40,8 +40,9 @@ permalink: /methods/
   </style>
   <body>
     <h3>Hardware</h3>
-    <p>To collect sEmg sygnal, we used Myo Armband from Thalmic labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). Myoarmband provide 8 channels for sEMG recording with 8-bit resolution and filtering implemented internally. It communicates with other devices by using Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 emg recordings each. This characteristics are updated oncew per second.</p>
-   <p>For interfacing with Myo and perform real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x </p>
+    <p>To collect sEmg sygnal, we used Myo Armband from Thalmic labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). Myoarmband provide 8 channels for sEMG recording with 8-bit resolution and filtering implemented internally. It communicates with other devices by using Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 emg recordings each. This characteristics are updated oncew per second.
+      </br>
+      For interfacing with Myo and perform real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x</a>. The istalled version of Android OS was 7.1.2.</p>
    
       
        <br>Software platforms include: 
