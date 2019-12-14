@@ -15,7 +15,7 @@ permalink: /futuredirection/
       <i>The interface that we created is highly mobile and requires a single Myo Armband to utilize. The absence of restrictive hardware, such as wires or additional sensors, allow for the convenience of an interactive environment with free-range.</i><br><br>
     <h4>3) Introduction of a new gesture set</h4>
       <i>To the best of our knowledge, our implementation of these natural typing movements as a recognizable gesture set with the Myo Armband has not been explored within previous works given the same hardware. Neither previous papers nor the NinaPro DB5 contained the gestures we were able to recognize with our design.</i></p></body></html>
-      ***
+      * * *
       <html>
   <body>
     <h3>Limitations</h3>
@@ -28,7 +28,7 @@ permalink: /futuredirection/
     <h4>4) Fixed Location of the Myo Armband</h4>
       <i>The Myo Armband was maintained within the same location throughout both data collection and interface. Therefore, it was a stringent requirement that the Myo Armband needed to be placed precisely throughout.</i>
     </p></body></html>
-    ***
+    * * *
     <html>
   <body>
     <h3>Improvements to Future Iterations</h3>
