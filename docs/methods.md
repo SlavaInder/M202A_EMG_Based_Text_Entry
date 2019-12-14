@@ -110,20 +110,36 @@ permalink: /methods/
     def save(self, address)
   ```
   ```python   
-  def set_classification(self, edges, class_name):
-    self.classification = [0 for i in range(len(self.timeline))]
-    self.classplot = [-50 for i in range(len(self.timeline))]
-    for i in range(len(edges)):
-        for j in range(edges[i][0], edges[i][1] + 1):
-            self.classification[j] = class_name
-            if class_name == 0: self.classplot[j] = -50
-            else: self.classplot[j] = 50
-            
-  # m_class_editor = class_editor(frequency, filenames)
-  m_class_editor = class_editor(200, "myo_emg_export_1574646877163.txt", "myo_emg_export_1574646877133.txt")
-  m_class_editor.process_all_files()
+  # This class allows to classify file
+  class class_editor:
+      # this class sets assigns "class_name" class for all samples between edges[i][0], edges[i][1]
+      def set_classification(self, edges, class_name)
+      # plots all 8 channels of the signal from x_segment[0] to x_segment[1] with resolution y_scale
+      def mk_plots(self, x_segment, y_scale)
+      # saves obtained file at "address"
+      def save(self, address)
   ```
+  
+  ```python
+  # Extracts the features from the timestamped dataset from m_class_editor
+  # This class allows to produce file output.csv file containing 7 features
+  # for 8 channels of EMG signal with timestamps. Format of output data is
+  #
+  #   [[[MAV1,  [...,  [CHP1,      CLASS0,
+  #      MAV1,   ...,   CHP1,      CLASS1,
+  #      ...................,      ......,
+  #      ...................,      ......,
+  #      ...................,      ......,
+  #      MAV1],  ...],  CHP1]],    CLASSN,
+  class converter2:
+    # this method extracts features from a dataset
+    def process_file(self, custom_class = 1)
+    # saves obtained file at "address"
+    def save(self, address)
+  
+  ``` 
   <html>
+  <p>Here we provide a match up table for gestures and number of class they correspond to.</p> 
   <center><table>
     <tr>
       <th>Gesture</th>
@@ -150,69 +166,30 @@ permalink: /methods/
       <td>4</td>
     </tr>
     <tr>
-      <td>Thumb Tap</td>
+      <td>Index Finger Extension</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>Ring Finger Extension</td>
+      <td>Middle Finger Extension</td>
       <td>6</td>
     </tr>
+    <tr>
+      <td>Ring Finger Extension</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Thumb Tap</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Pinky Extension</td>
+      <td>9</td>
+    </tr>
     </table></center>
-  <h3>Feature Extraction</h3>
-  <p>The cleaned and classified datasets are now ready for feature extraction. The feature extraction is done with a sliding window of length 200 ms and an offset of 10 ms. The code samples below come from the m_converter class.</p></html>
-  ```python
-  # Extracts the features from the timestamped dataset from m_class_editor
-  # This class allows to produce file output.csv file containing 7 features
-  # for 8 channels of EMG signal with timestamps. Format of output data is
-  #
-  #   [[[MAV1,  [...,  [CHP1,      CLASS0,
-  #      MAV1,   ...,   CHP1,      CLASS1,
-  #      ...................,      ......,
-  #      ...................,      ......,
-  #      ...................,      ......,
-  #      MAV1],  ...],  CHP1]],    CLASSN,
-  
-  # This function takes the window and calculates the Activity Hjorth Parameter for the window
-  def get_MHP(self, w):
-    # AHP w/ s
-    sum1 = 0
-    for x in range(0, len(w)):
-        sum1 = sum1 + w[x]**2
-    # AHP w/ s'
-    sum2 = 0
-    for x in range(0, len(w)-1):
-        sum2 = sum2 + (w[x+1] - w[x])**2
-    return (sum2/sum1)**(0.5)
-  # m_converter = converter(l, L, frequency, Gesture_Class, filenames)
-  # l = number of samples per segment
-  # L = number of segments per window
-  m_converter = converter(2, 40, 200, 5, "emgset0")
-  m_converter.process_all_files()
-  ```
+</p></html>
+
   <html>
     <body>
     <h3>Artifical Neural Network Architecture</h3>
     <p>Our model consists of 3 main layers: the input layer, the hidden layer, and the output layer. The input layer contains 48 nodes (consisting of the 48 total features: 8 channels, 6 features each), the hidden layer contains 24 nodes (half of the input layer), and the output layer contains 7 nodes, correlating to the total number of classified gestures. The number of nodes for the hidden layer were empirically determined given the size of our dataset and the number of input layers. Additionally, a sigmoid activation function was implemented to restrict the output of the inlaid transfer function to values between the range of 0 and 1. This range of values is then normalized through the softmax function of the output layer to create a set of probabilities of each class adding up to 1. This model demonstrated high accuracy and was chosen based upon the conclusions of outside research.</p>
-    <h3>ANN Model Code Samples</h3>
-    <p>After training and evaluation, our model was able to demonstrate an accuracy of approximately 90% with the 8 different classes. The code samples below demonstrate how we trained and evaluted our model.</p>
     </body></html>
-  ```python
-  # init and compile NN network
-  model = tf.keras.Sequential()
-  model.add(layers.Dense(56))
-  model.add(layers.Dense(28, activation='sigmoid'))
-  model.add(layers.Dense(8, activation='softmax'))
-  model.compile(optimizer=tf.keras.optimizers.Adam(0.01),
-                loss='categorical_crossentropy',
-                metrics=['accuracy'])
-                
-  # load data
-  data = mvectors_producer.training_array
-  labels = mvectors_producer.training_labels
-  val_data = mvectors_producer.validation_array
-  val_labels = mvectors_producer.validation_labels
-
-  # train NN network
-  model.fit(data, labels, epochs=10, batch_size=32,
-            validation_data=(val_data, val_labels))
-  ```
