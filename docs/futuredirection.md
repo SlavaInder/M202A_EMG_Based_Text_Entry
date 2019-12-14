@@ -17,8 +17,12 @@ In conclusion, we were able to develop an application that sets a basis for huma
 
 #### 3) Introduction of a new gesture set
 *To the best of our knowledge, our implementation of these natural typing movements as a recognizable gesture set with the Myo Armband has not been explored within previous works given the same hardware. Neither previous papers nor the NinaPro DB5 contained the gestures we were able to recognize with our design.*
+
+
       
 * * *
+      
+      
       
 ### Limitations
 #### 1) Intermediate Gestures
@@ -36,7 +40,11 @@ In conclusion, we were able to develop an application that sets a basis for huma
 #### 4) Fixed Location of the Myo Armband
 *The Myo Armband was maintained within the same location throughout both data collection and interface. Therefore, it was a stringent requirement that the Myo Armband needed to be placed precisely throughout.*
     
+    
+    
 * * *
+
+
 
 ### Improvements to Future Iterations
 #### 1) Implementation of a filtering algorithm
