@@ -70,10 +70,6 @@ permalink: /methods/
       <img id = "center" src="https://www.typing.academy/app/source/public/images/intro/en/basic-position.png">
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
-    <center><figure>
-      <img src="https://www.mdpi.com/sensors/sensors-19-02495/article_deploy/html/images/sensors-19-02495-g003.png" style = "max-width:70%">
-      <center><figcaption>Pipeline</figcaption></center>
-      </figure></center>
     </p>
     <h3>Datasets</h3>
     <p>Over the course of our project, we collected and sorted the dataset of almost 80,000 samples. This dataset can and downloaded from our Github repo at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts - one is the data we used to train Neural Network for final version of our implementation, and the other is data we experimented with but did not include in final version. This "discarded" data was found to be either too noisy or from the gestures we did not included in final version. 
