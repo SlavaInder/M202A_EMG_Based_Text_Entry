@@ -41,10 +41,11 @@ permalink: /methods/
   <body>
     <h3>Hardware</h3>
     <p>To collect sEmg sygnals, we used a Myo Armband from Thalmic Labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). The Myo Armband provides 8 channels for sEMG recording with an 8-bit resolution and filtering done internally. It communicates with other devices via Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 sEMG recordings each. These characteristics were updated once per second.
-      <br/>
+      <br>
       For interfacing with Myo and performing real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x</a>. The istalled version of Android OS was 7.1.2.</p>
    <h3>Software</h3>
-   <p>For all offline processing (cleaning, classification, feature extraction), Python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and NN training. Android Studios (Java) was used to implement the Android application. The TensorFlowLite package was used to provide support for a portable tflite classification format.</p>   
+   <p>For all offline processing (cleaning, classification, feature extraction), Python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and NN training. Android Studios (Java) was used to implement the Android application. The TensorFlowLite package was used to provide support for a portable tflite classification format.</p> 
+        <figure><center>
         <img src="/pictures/Myo-armband-by-Thalmic-Labs.png" style = "max-width:70%">
         <center><figcaption>Myo Armband Sensors</figcaption></center>
         </figure></center>
