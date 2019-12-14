@@ -40,18 +40,18 @@ permalink: /methods/
   </style>
   <body>
     <h3>Hardware</h3>
-    <p>To collect sEmg sygnals, we used a Myo Armband from Thalmic Labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). The Myo Armband provides 8 channels for sEMG recording with an 8-bit resolution and filtering done internally. It communicates with other devices via Bluetooth Low Energy interface. This interface provides 4 characteristics containing 2 sEMG recordings each. These characteristics were updated once per second.
+    <p>To collect sEmg signals, we used a Myo Armband from Thalmic Labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). The Myo Armband provides 8 channels for sEMG recording with an 8-bit resolution and filtering was performed internally. It communicates with other devices via Bluetooth Low Energy. This interface provides 4 characteristics containing 2 sEMG recordings each. These characteristics were updated once per second.
       <br>
-      For interfacing with Myo and performing real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x</a>. The istalled version of Android OS was 7.1.2.</p>
+      For interfacing with Myo and performing real-time data processing and classification, we used <a href = "https://www.mi.com/my/redmi4x/">Xiaomi Redmi 4x</a>. The installed version of Android OS was 7.1.2.</p>
    <h3>Software</h3>
-   <p>For all offline processing (cleaning, classification, feature extraction), Python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and NN training. Android Studios (Java) was used to implement the Android application. The TensorFlowLite package was used to provide support for a portable tflite classification format.
+   <p>For all offline processing (cleaning, classification, feature extraction), Python 3.6 was used. ScyPy and Tensorflow 2 were used for data analysis and neural network training. Android Studios (Java) was used to implement the Android application. The TensorFlowLite package was used to provide support for a portable tflite classification format.
         <center><figure>
         <img src="/pictures/Myo-armband-by-Thalmic-Labs.png" style = "max-width:70%">
-        <center><figcaption>Myo Armband Sensors</figcaption></center>
+        <center><figcaption>Myo Armband Sensor</figcaption></center>
         </figure></center>
   </p>
     <h3>Gesture Set</h3>
-    <p>Our design includes 2 types of gestures: finger taps (for letters A, S, D, F and whitespace, which are placed directly under the fingers when the hand is at rest) and finger extensions (for letters W, E, R and shift, which are pressed by stretching fingers). Amplitude of sEMG signal produced by these gestures in the forearm is low, and we ensured that the hand is positioned comfortably and rests throughout all of the experiment. Also, we ensured that during all of the experiments Myo Armband was placed at the same place (on the left hand, approximately 3 inches from the elbow with the LED display facing towards the inner right arm) </p>
+    <p>Our design includes 2 types of gestures: finger taps (for letters A, S, D, F and whitespace, which are placed directly under the fingers when the hand is at rest) and finger extensions (for letters W, E, R and shift, which are pressed by stretching fingers). The amplitudes of the sEMG signals produced by these gestures are low, and we ensured that the hand was positioned comfortably and at rest throughout. Also, we ensured that during all experimentation the Myo Armband was placed at the same location (on the left hand, approximately 3 inches from the elbow) with the LED display facing towards the inner right arm.</p>
     <div class = "row">
       <div class = "column">
         <figure>
@@ -71,25 +71,25 @@ permalink: /methods/
       <center><figcaption>Default Hand at Rest</figcaption></center>
     </figure>
     <h3>Datasets</h3>
-    <p>Over the course of our project, we collected and sorted the dataset of almost 80,000 samples. This dataset can and downloaded from our Github repo at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts - one is the data we used to train Neural Network for final version of our implementation, and the other is data we experimented with but did not include in final version. This "discarded" data was found to be either too noisy or from the gestures we did not included in final version. Final dataset consists of 6 gestures plus neutral position. All data is saved as *.txt files and separated in groups: raw data, cleaned data, classified data, features. </p>
+    <p>Over the course of our project, we collected and sorted datasets totalling around 80,000 samples. This dataset can be accessed and downloaded from our Github repository at <a href="https://github.com/SlavaInder/M202A/tree/master/data">here</a>. This dataset is be divided into two parts: a training dataset and an evaluation dataset, both utilized with our neural network. Additionally, we did not utilize data that was found to be either too noisy or that did not integrate well into our interface. Our final dataset consists of 6 gestures plus the neutral position. All data is saved as *.txt files and separated into 4 groups: raw data, cleaned data, classified data, and features. </p>
     <h3>Features</h3>
-    <p>To process data in real-time, we use sliding window approach - that is we divide all our data in segments of fixed size. A set of segments is combined into a window, and 6 time domain features are extracted from the window (so, overall there is 48 features for 8 channels). Then first segment is popped out of the window and new one is added in the and. Features are extracted again and this process runs in a loop until last window is processed. The features that we use include:
+    <p>To process data in real-time, we utilized a sliding window approach - that is we divided all our data into segments of a fixed size. A set of segments is combined to form a window and 6 time domain features were extracted from each window (6 features * 8 channels = 48 features). The sliding window is impemented such that the first segment is popped out of the window and another segment is added towards the end. For our design, this offset was a length of 10 ms. Features are extracted from this new window and the process is looped until the features in the final window are extracted. The features that we will observe are:
       <ul>
-        <li>Mean average value (MAV): average of the absolute values of the sEMG amplitudes and characterizes muscle contraction level</li>
+        <li>Mean average value (MAV): average of the absolute values of the sEMG amplitudes; characterizes muscle contraction levels</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MAV.png"></center>
-        <li>Root mean squared (RMS): mean power of the sEMG and characterizes the activity of the muscles</li>
+        <li>Root mean squared (RMS): mean power of the sEMG; characterizes the activity of the muscles</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/RMS.png"></center>
-        <li>Slope sign change (SSC): number of times the slope sign changes within the current window and characterizes the frequency information of the sEMG signal</li>
+        <li>Slope sign change (SSC): number of times the slope sign changes within the current window; characterizes the frequency information of the sEMG signal</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/SSC.png"></center>
-        <li>Waveform length (WL): total wavelength of the sEMG signal and characterizes signal complexity</li>
+        <li>Waveform length (WL): total wavelength of the sEMG signal; characterizes signal complexity</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/WL.png"></center>
         <li>Activity Hjorth parameter (AHP): power spectrum of the frequency domain</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/AHP.png"></center>
         <li>Mobility Hjorth parameter (MHP): average frequency of the signal</li>
         <center><img src = "https://raw.githubusercontent.com/SlavaInder/M202A/master/docs/misc/MHP.png"></center>
       </ul></p>
-    <h3>Code for data processing</h3>
-      <p>Here we provide interface for classes that we created to process data.</p>
+    <h3>Code for Data Processing</h3>
+      <p>Here we provide a code samples for the classes that we created to process our data.</p>
   </body></html>
   ```python
   # class allowing to delete or replace with reference noise parts of the signal 
@@ -139,7 +139,7 @@ permalink: /methods/
   
   ``` 
   <html>
-  <p>Here we provide a match up table for gestures and number of class they correspond to.</p> 
+  <p>Here we provide a table corresponding each gesture to their class label.</p> 
   <center><table>
     <tr>
       <th>Gesture</th>
