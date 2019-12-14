@@ -94,24 +94,21 @@ permalink: /methods/
   ```python
   # class allowing to delete or replace with reference noise parts of the signal 
   class emg_cleaner:
-  # deletes "points" of points from the start 
-  def delete_points_from_start(self, points)
-  # deletes "points" of points from the end
-  def delete_points_from_end(self, points)
-  # adds "points" of points before the start; these points are copied from reference signal
-  def add_points_to_start(self, points)
-  # replaces points from point "start" to point "end" by reference signal
-  def replace_points_in_middle(self, start, end):
-  # adds "points" of points after the end; these points are copied from reference signal
-  def add_points_to_end(self, points)
-  # plots all 8 channels of the signal from x_segment[0] to x_segment[1] with resolution y_scale
-  def mk_plots(self, x_segment, y_scale)
-  # saves obtained file at "address"
-  def save(self, address)
+    # deletes "points" of points from the start 
+    def delete_points_from_start(self, points)
+    # deletes "points" of points from the end
+    def delete_points_from_end(self, points)
+    # adds "points" of points before the start; these points are copied from reference signal
+    def add_points_to_start(self, points)
+    # replaces points from point "start" to point "end" by reference signal
+    def replace_points_in_middle(self, start, end):
+    # adds "points" of points after the end; these points are copied from reference signal
+    def add_points_to_end(self, points)
+    # plots all 8 channels of the signal from x_segment[0] to x_segment[1] with resolution y_scale
+    def mk_plots(self, x_segment, y_scale)
+    # saves obtained file at "address"
+    def save(self, address)
   ```
-  <html><body>
-  <h3>Classification</h3>
-  <p>After cleaning and removing noise from the dataset (mainly in the resting portions), the signals were classified. By implementing the add/delete points methods of the emg_cleaner class, we were able to create standardized datasets with reliable timestamps which were then labelled accordingly. The code samples below come from the m_class_editor class.</p></body></html>
   ```python   
   def set_classification(self, edges, class_name):
     self.classification = [0 for i in range(len(self.timeline))]
