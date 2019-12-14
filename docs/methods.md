@@ -39,8 +39,10 @@ permalink: /methods/
   }
   </style>
   <body>
-    <h3>Materials</h3>
-    <p>The only hardware that was utilized within our research was a commercially available Myo Armband for surface EMG signal extraction. The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The accelerometer and the gyroscope features of the Myo Armband were not needed for the purposes of collecting information on single-finger gestures. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128.<br>Software platforms include: 
+    <h3>Hardware</h3>
+    <p>To collect sEmg sygnal, we used Myo Armband from Thalmic labs (for elaborated discussion on this topic see <a href = "https://slavainder.github.io/M202A/previousworks/">Myo armband</a>). Myoarmband provide 8 channels for sEMG recording with 8-bit resolution and filtering implemented internally. 
+      
+       The Myo Armband consisted of 8 channels, 3 large segments and 5 small segments, to gather the sEMG data from two subjects. The accelerometer and the gyroscope features of the Myo Armband were not needed for the purposes of collecting information on single-finger gestures. The raw data recieved from the Myo Armband will be normalized into a range of -127 to 128.<br>Software platforms include: 
       <ul>
         <li>Python: signal cleaning, window sampling, and feature extracting</li>
         <li>TensorFlow: creating and training our model; TensorFlowLite version was implemented into our application</li>
