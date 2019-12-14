@@ -16,10 +16,10 @@ permalink: /
     <p>In order to fulfill the aim of our project, we collected a dataset of sEMG signals derived from the forearm during the process of typing. We trained a classification neural network to recognize pushes on different buttons on the keyboard and implemented it within an Android application. We successfully showed that these subtle gestures could be recognized and translated into a set of characters. 
     </p>    
     <h1>Our Slides<h1>
-      <center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT19j71m7GOTJ2oqKkVYxwYwume2e3W_jG7c7_ZualVBHTeQ2iMsOoX95tJQxujZNvSNYa4O-GoOg-J/embed?start=true&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
+      <center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT19j71m7GOTJ2oqKkVYxwYwume2e3W_jG7c7_ZualVBHTeQ2iMsOoX95tJQxujZNvSNYa4O-GoOg-J/embed?start=true&loop=false&delayms=60000" frameborder="0" width="640" height="379" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
     <h1>Demonstration</h1>
-      <center><iframe width="1440" height="508" src="https://www.youtube.com/embed/cRu21NTDe1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <center><iframe width="700" height="247" src="https://www.youtube.com/embed/cRu21NTDe1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
     <h1>Presentation</h1>
-      <center><iframe width="1440" height="508" src="https://www.youtube.com/embed/Y36CXKaGzXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <center><iframe width="700" height="247" src="https://www.youtube.com/embed/Y36CXKaGzXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
   </body>
 </html>
