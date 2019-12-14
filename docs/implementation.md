@@ -18,7 +18,7 @@ permalink: /implementation/
       <figure>
           <center><img id = "center" width="800" height="481" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/78785143_589167731857011_8276901187735781376_n.png?_nc_cat=105&_nc_ohc=HiyZDPvNN-gAQnKWT74IHK2T4ldSpnW186Xf8-n06bTB_q5I7FBIli07w&_nc_ht=scontent-lax3-1.xx&oh=3437efd26fd264f97e5b4b19dbb017a5&oe=5E829C70" style="width:550px;height:auto"></center>
           <center><figcaption>Finalized Gesture Set</figcaption></center>
-        </figure><br>
+        </figure>
     </p>
     <h3>Demonstration</h3>
       <center><iframe width="500" height="350" src="https://www.youtube.com/embed/cRu21NTDe1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
