@@ -63,7 +63,7 @@ permalink: /workbreakdown/
      </tr>
     <tr>
       <td>11/18/2019 - 11/22/2019</td>
-      <td>Pre-process and feature-extract current datasets. Create and train learning model. Begin Android Studios interface</td>
+      <td>Classify datasets and extract features. Create and train learning model. Begin Android Studios interface</td>
     </tr>
     <tr>
       <td>11/25/2019 - 11/29/2019</td>
