@@ -12,8 +12,8 @@ This repo contains all the materials produced for Myo Armband gesture recognitio
 4. Python folder contains script used for data analysis.
 5. tf model folder contains weights for model implemented in application
 
-In case of any questions or problems related to access to this repo, pleaase, contact us directly
-v.inderiakin.uk@gmail.com
+In case of any questions or problems related to access to this repo, pleaase, contact us directly \\
+v.inderiakin.uk@gmail.com \\
 mhk150230@g.ucla.edu
 
 Note for instructor: history of commits for android application can be traced by using this link
