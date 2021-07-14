@@ -1,7 +1,7 @@
 # M202A
 EMG-based control system. Project by Viacheslav Inderiakin and Michael Kim.
 
-Our GitHub pages: https://slavainder.github.io/M202A/
+Our GitHub pages: https://slavainder.github.io/M202A_EMG_Based_Text_Entry/
 
 ### Description
 
